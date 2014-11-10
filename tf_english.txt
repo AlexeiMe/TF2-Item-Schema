@@ -2100,6 +2100,9 @@
 "TF_VoodooPin"			"Wanga Prick" // ADD THE
 "TF_InfernalImpaler"	"Infernal Impaler" // ADD THE
 
+"TF_Nabler"			"Nabler" // ADD THE
+"TF_Nabler_Desc"		""
+
 "TF_BigChief"			"Big Chief" // ADD THE
 "TF_BigChief_Desc"		""
 "TF_CaponesCapper"		"Capo's Capper"
