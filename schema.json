@@ -1,7 +1,7 @@
 {
 	"result": {
 		"status": 1,
-		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.5f87141499fb57984b066a978f6a26c01ff8efbb.txt",
+		"items_game_url": "http://media.steampowered.com/apps/440/scripts/items/items_game.a39e1462ed18b0ffa5dd1ea686bcd992a6077e49.txt",
 		"qualities": {
 			"Normal": 0,
 			"rarity1": 1,
@@ -62718,6 +62718,94 @@
 				}
 			},
 			{
+				"name": "Naughty Winter Crate 2014",
+				"defindex": 5789,
+				"item_class": "supply_crate",
+				"item_type_name": "Supply Crate",
+				"item_name": "Naughty Winter Crate 2014",
+				"item_description": "This crate's contents are unknown and\nnormal keys don't fit the lock.\n\nYou'd better hold onto it.\nThere will probably be a way to open it later.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack/player/items/crafting/smissmas_crate_naughty_2014",
+				"min_ilevel": 13,
+				"max_ilevel": 13,
+				"image_url": "http://media.steampowered.com/apps/440/icons/smissmas_crate_naughty_2014.ac8047eba6bcf22da4b2bcb33b2deef08b4cbdd2.png",
+				"image_url_large": "http://media.steampowered.com/apps/440/icons/smissmas_crate_naughty_2014_large.ea1ac9c9643ed6222f79b080f0c48429562a98bd.png",
+				"craft_class": "supply_crate",
+				"craft_material_type": "supply_crate",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true,
+					"can_killstreakify": true,
+					"can_consume": true
+				},
+				"tool": {
+					"type": "",
+					"restriction": "winter2014_naughty"
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 88
+					}
+				]
+				
+			},
+			{
+				"name": "Nice Winter Crate 2014",
+				"defindex": 5790,
+				"item_class": "supply_crate",
+				"item_type_name": "Supply Crate",
+				"item_name": "Nice Winter Crate 2014",
+				"item_description": "This crate's contents are unknown and\nnormal keys don't fit the lock.\n\nYou'd better hold onto it.\nThere will probably be a way to open it later.",
+				"proper_name": false,
+				"model_player": null,
+				"item_quality": 6,
+				"image_inventory": "backpack/player/items/crafting/smissmas_crate_2014",
+				"min_ilevel": 13,
+				"max_ilevel": 13,
+				"image_url": "http://media.steampowered.com/apps/440/icons/smissmas_crate_2014.ba5e7a0a8d87bc071fb5476c28068af2212a3a3d.png",
+				"image_url_large": "http://media.steampowered.com/apps/440/icons/smissmas_crate_2014_large.e5a3db37b3dec3d9459969f417f7fb3943f81453.png",
+				"craft_class": "supply_crate",
+				"craft_material_type": "supply_crate",
+				"capabilities": {
+					"decodable": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true,
+					"can_killstreakify": true,
+					"can_consume": true
+				},
+				"tool": {
+					"type": "",
+					"restriction": "winter2014_nice"
+				},
+				"used_by_classes": [
+
+				]
+				,
+				"attributes": [
+					{
+						"name": "set supply crate series",
+						"class": "supply_crate_series",
+						"value": 89
+					}
+				]
+				
+			},
+			{
 				"name": "Strange Part (Armory)",
 				"defindex": 5999,
 				"item_class": "tool",
@@ -118664,6 +118752,18 @@
 					"can_killstreakify": true,
 					"can_consume": true
 				},
+				"styles": [
+					{
+						"name": "No Helmet",
+						"additional_hidden_bodygroups": {
+							"hat": 1
+						}
+					},
+					{
+						"name": "Helmet"
+					}
+				]
+				,
 				"used_by_classes": [
 					"Engineer"
 				]
@@ -125154,6 +125254,56 @@
 						"name": "cannot trade",
 						"class": "cannot_trade",
 						"value": 1
+					}
+				]
+				
+			},
+			{
+				"name": "eotl_winter_coat",
+				"defindex": 30601,
+				"item_class": "tf_wearable",
+				"item_type_name": "Coat",
+				"item_name": "Cold Snap Coat",
+				"proper_name": false,
+				"item_slot": "misc",
+				"model_player": "models/workshop/player/items/soldier/eotl_winter_coat/eotl_winter_coat.mdl",
+				"item_quality": 6,
+				"image_inventory": "backpack/workshop/player/items/soldier/eotl_winter_coat/eotl_winter_coat",
+				"min_ilevel": 1,
+				"max_ilevel": 100,
+				"image_url": "http://media.steampowered.com/apps/440/icons/eotl_winter_coat.128bffad01c45c5a79771dfce924cfbc56b05fb6.png",
+				"image_url_large": "http://media.steampowered.com/apps/440/icons/eotl_winter_coat_large.2659fb2074985923950964fd571e8d9cc725621e.png",
+				"drop_type": "none",
+				"craft_class": "",
+				"craft_material_type": "hat",
+				"capabilities": {
+					"paintable": true,
+					"nameable": true,
+					"can_craft_if_purchased": true,
+					"can_gift_wrap": true,
+					"can_craft_count": true,
+					"can_craft_mark": true,
+					"can_be_restored": true,
+					"strange_parts": true,
+					"can_card_upgrade": true,
+					"can_strangify": true,
+					"can_killstreakify": true,
+					"can_consume": true
+				},
+				"used_by_classes": [
+					"Soldier"
+				]
+				,
+				"attributes": [
+					{
+						"name": "kill eater score type",
+						"class": "kill_eater_score_type",
+						"value": 64
+					},
+					{
+						"name": "kill eater kill type",
+						"class": "kill_eater_kill_type",
+						"value": 64
 					}
 				]
 				
