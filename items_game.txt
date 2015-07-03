@@ -53708,6 +53708,10 @@
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_scattergun"
 			"baseitem" "1"
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0"
+			}
 		}
 		"14"
 		{
@@ -53715,6 +53719,10 @@
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_sniperrifle"
 			"baseitem" "1"
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0"
+			}
 		}
 		"15"
 		{
@@ -53722,6 +53730,10 @@
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_minigun"
 			"baseitem" "1"
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0"
+			}
 		}
 		"16"
 		{
@@ -53773,6 +53785,10 @@
 			"prefab"	"weapon_rocketlauncher"
 			"xifier_class_remap"	"rocket_launcher"
 			"baseitem" "1"
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0"
+			}
 		}
 		"19"
 		{
@@ -53780,6 +53796,10 @@
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_grenade_launcher"
 			"baseitem" "1"
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0"
+			}
 		}
 		"20"
 		{
@@ -53787,6 +53807,10 @@
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_stickybomb_launcher"
 			"baseitem" "1"
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0"
+			}
 		}
 		"21"
 		{
@@ -53794,6 +53818,10 @@
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_flamethrower"
 			"baseitem" "1"
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0"
+			}
 		}
 		"22"
 		{
@@ -54058,6 +54086,10 @@
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"weapon_medigun"
 			"baseitem" "1"
+			"capabilities"
+			{
+				"can_gift_wrap" 	"0"
+			}
 		}
 		"30"
 		{
@@ -108673,6 +108705,7 @@
 							"jumping_state"		"0"
 							"disguise_target"		"0"
 							"min_stickies"		"0"
+							"alive_state"		"0"
 							"is_owner"		"1"
 							"value"		"scout"
 						}
@@ -108707,20 +108740,33 @@
 									"jumping_state"		"1"
 									"disguise_target"		"0"
 									"min_stickies"		"0"
+									"alive_state"		"0"
 									"is_owner"		"1"
 									"value"		"scout"
 								}
 								"1"
 								{
 									"type"		"class"
-									"player_key"		"attacker"
+									"player_key"		"assister"
 									"get_player"		"by_id"
 									"jumping_state"		"1"
 									"disguise_target"		"0"
 									"min_stickies"		"0"
+									"alive_state"		"0"
 									"is_owner"		"1"
 									"value"		"scout"
 								}
+							}
+							"2"
+							{
+								"type"		"player"
+								"player_key"		"userid"
+								"get_player"		"by_id"
+								"jumping_state"		"0"
+								"disguise_target"		"0"
+								"min_stickies"		"0"
+								"alive_state"		"0"
+								"is_owner"		"0"
 							}
 						}
 					}
@@ -108754,6 +108800,7 @@
 									"jumping_state"		"0"
 									"disguise_target"		"0"
 									"min_stickies"		"0"
+									"alive_state"		"0"
 									"is_owner"		"1"
 									"value"		"scout"
 								}
@@ -108765,6 +108812,7 @@
 									"jumping_state"		"0"
 									"disguise_target"		"0"
 									"min_stickies"		"0"
+									"alive_state"		"0"
 									"is_owner"		"1"
 									"value"		"scout"
 								}
@@ -108777,6 +108825,7 @@
 								"jumping_state"		"0"
 								"disguise_target"		"0"
 								"min_stickies"		"0"
+								"alive_state"		"0"
 								"is_owner"		"0"
 								"value"		"demoman"
 							}
@@ -108819,6 +108868,7 @@
 									"jumping_state"		"0"
 									"disguise_target"		"0"
 									"min_stickies"		"0"
+									"alive_state"		"0"
 									"is_owner"		"1"
 									"value"		"scout"
 								}
@@ -108837,6 +108887,7 @@
 								"jumping_state"		"0"
 								"disguise_target"		"0"
 								"min_stickies"		"0"
+								"alive_state"		"0"
 								"is_owner"		"1"
 								"value"		"scout"
 							}
@@ -108872,6 +108923,7 @@
 									"jumping_state"		"0"
 									"disguise_target"		"0"
 									"min_stickies"		"0"
+									"alive_state"		"0"
 									"is_owner"		"1"
 									"value"		"scout"
 								}
@@ -108883,6 +108935,7 @@
 									"jumping_state"		"0"
 									"disguise_target"		"0"
 									"min_stickies"		"0"
+									"alive_state"		"0"
 									"is_owner"		"1"
 									"value"		"scout"
 								}
@@ -108895,6 +108948,7 @@
 								"jumping_state"		"0"
 								"disguise_target"		"0"
 								"min_stickies"		"0"
+								"alive_state"		"0"
 								"is_owner"		"0"
 							}
 						}
@@ -108929,6 +108983,7 @@
 									"jumping_state"		"0"
 									"disguise_target"		"0"
 									"min_stickies"		"0"
+									"alive_state"		"0"
 									"is_owner"		"1"
 									"value"		"scout"
 								}
@@ -108940,6 +108995,7 @@
 									"jumping_state"		"0"
 									"disguise_target"		"0"
 									"min_stickies"		"0"
+									"alive_state"		"0"
 									"is_owner"		"1"
 									"value"		"scout"
 								}
@@ -108952,6 +109008,7 @@
 								"jumping_state"		"0"
 								"disguise_target"		"0"
 								"min_stickies"		"0"
+								"alive_state"		"0"
 								"is_owner"		"0"
 								"value"		"medic"
 							}
