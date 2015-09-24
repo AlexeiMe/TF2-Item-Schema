@@ -1536,7 +1536,7 @@
 "TF_Duel_Win_SwappedTeams"	"%winner% defeated %loser% in a duel because %loser% changed teams."
 "TF_Duel_Win_Disconnect"	"%winner% defeated %loser% in a duel because %loser% left the game."
 "TF_Duel_Tie"				"The duel between %initiator% and %target% ended in a draw with %score% points each! A Dueling Mini-Game owned by %initiator% has not been consumed."
-"TF_Duel_Refund_LevelShutdown"			"The duel between %initiator% and %target% has ended, because the level has changed. A Dueling Mini-Game owned by %initiator% has not been consumed."
+"TF_Duel_Refund_LevelShutdown"			"The duel between %initiator% and %target% has ended, because the map has changed. A Dueling Mini-Game owned by %initiator% has not been consumed."
 "TF_Duel_Refund_ScoreTiedAtZero"		"The duel between %initiator% and %target% has ended, because they tied at 0-0. A Dueling Mini-Game owned by %initiator% has not been consumed."
 "TF_Duel_Refund_Kicked"		"The duel between %initiator% and %target% has ended, because a player has been kicked. A Dueling Mini-Game owned by %initiator% has not been consumed."
 "TF_Duel_Refund_ForceTeamSwap"		"The duel between %initiator% and %target% has ended, because a player has been switched to another team. A Dueling Mini-Game owned by %initiator% has not been consumed."
@@ -3274,6 +3274,7 @@
 "TF_Map_powerup_ctf_gorge"		"Gorge - BETA"
 "TF_Map_powerup_ctf_thundermountain"		"Thundermountain - BETA"
 "TF_Map_pass_warehouse"			"Warehouse - BETA"
+"TF_Map_pass_warehouse_goal2"	"Warehouse Goal2 - BETA"
 
 "TF_Egypt_StrangePrefix"		" Egyptian"
 "TF_Junction_StrangePrefix"		" Technical"
@@ -9881,7 +9882,7 @@
 "TF_Armory_Item_Action"					"This item is an Action Item. Click on the backpack's 'Use' button to use it. Alternatively, equip it in the Action slot of a class loadout and press the 'Use Item in Action Slot' key, which can be bound in the Keyboard Settings."
 
 "TF_Armory_Item_Duel_Medal"			"This item keeps track of lifetime dueling statistics and the results of the last duel. For every 10 duel wins, it will increase in level by 1 (up to level 100), earning you a new Dueling Mini-Game and a free item. Every 25 levels it will be upgraded to the next tier."
-"TF_Armory_Item_Duel"				"This Action Item enables the Dueling Mini-Game. When used, it allows you to challenge a player on the opposite team to a duel. If they accept, the duel begins. This item will not be consumed if the other player refuses the duel.\n\nAt the end of the round, whoever has more duel points wins. Kills and assists against your opponent are worth 1 point.\n\nThis item will not be consumed if the server changes level or the score is tied 0-0 at the end of the round."
+"TF_Armory_Item_Duel"				"This Action Item enables the Dueling Mini-Game. When used, it allows you to challenge a player on the opposite team to a duel. If they accept, the duel begins. This item will not be consumed if the other player refuses the duel.\n\nAt the end of the round, whoever has more duel points wins. Kills and assists against your opponent are worth 1 point.\n\nThis item will not be consumed if the server changes map or the score is tied 0-0 at the end of the round."
 "TF_Armory_Item_Supply_Crate"		"This crate contains one of the items listed in its description. To unlock the crate and retrieve the item, you must use a Mann Co. Supply Crate Key, which can be purchased inside the Mann Co. Store. These crates contain one of the rarest and most valuable items in the game, so cross your fingers before you unlock them!"
 "TF_Armory_Item_Winter_Crate"		"This crate contains an item, but it isn't clear what. The crate will disappear at the end of the year, so you should open it before it's gone!"
 "TF_Armory_Item_Summer_Crate"			"This cooler contains an item, but it isn't clear what. The cooler will disappear on July 11th, so you should open it before it's gone!"
@@ -10024,11 +10025,11 @@
 "TF_vote_passed_classlimits_disable"	"Class limits disabled..."
 
 "TF_vote_no_maps"		"No maps available"
-"TF_vote_changelevel"			"Change current level to %s1?"
-"TF_vote_nextlevel"			"Set the next level to %s1?"
-"TF_vote_passed_changelevel"		"Changing level to %s1..."
-"TF_vote_passed_nextlevel"		"Next level set to %s1..."
-"TF_vote_passed_nextlevel_extend"	"Extending the current level"
+"TF_vote_changelevel"			"Change current map to %s1?"
+"TF_vote_nextlevel"			"Set the next map to %s1?"
+"TF_vote_passed_changelevel"		"Changing map to %s1..."
+"TF_vote_passed_nextlevel"		"Next map set to %s1..."
+"TF_vote_passed_nextlevel_extend"	"Extending the current map"
 "TF_vote_nextlevel_choices"		"Vote for the next map!"
 
 "TF_vote_changechallenge"		"Change current mission to %s1?"
@@ -10049,6 +10050,8 @@
 "TF_vote_td_start_round"		"Start the current round?"
 "TF_vote_passed_td_start_round"	"Starting the round..."
 
+"TF_vote_extendlevel"			"Extend the current level?"
+
 "Vote_notification_title"		"Vote Called"
 "Vote_notification_text"		"%initiator% wants to call a vote"
 "Vote_notification_view"		"View"
@@ -10060,8 +10063,9 @@
 
 "Vote_RestartGame"		"Restart Game"
 "Vote_Kick"				"Kick"
-"Vote_ChangeLevel"		"Change Level"
-"Vote_NextLevel"			"Next Level"
+"Vote_ChangeLevel"		"Change Map"
+"Vote_NextLevel"			"Next Map"
+"Vote_ExtendLevel"			"Extend Current Map"
 "Vote_ScrambleTeams"		"Scramble Teams"
 "Vote_ChangeMission"		"Change Mission"
 "Vote_Eternaween"			"Eternaween"
@@ -10903,6 +10907,7 @@
 "TF_SteamWorkshop_Tag_SoundDevice"	"Sound Device"
 "TF_SteamWorkshop_Tag_Halloween"	"Halloween"
 "TF_SteamWorkshop_Tag_Taunt"	"Taunt"
+"TF_SteamWorkshop_Tag_UnusualEffect"	"Unusual Effect"
 "TF_SteamWorkshop_Tag_Night"	"Night"
 "TF_SteamWorkshop_Tag_Smissmas"	"Smissmas"
 "TF_SteamWorkshop_Tag_CTF"				"Capture the Flag"
