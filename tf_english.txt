@@ -476,6 +476,7 @@
 "Econ_GreyOutReason_ItemSpecialQuality"			"( Item has special quality. )"
 
 "Econ_MarketTooltipFormat"			"( %s1 available on the Steam Community Market starting at %s2 )"
+"EconAction_Preview"				"Inspect in Game..." 
 
 "OnlyAllowUniqueQuality"						"Disallow items with special qualities"
 
@@ -1057,6 +1058,14 @@
 "TF_TournamentMedal_LBTF2_Highlander_2nd"			"LBTF2 Highlander 2nd Place"
 "TF_TournamentMedal_LBTF2_Highlander_3rd"			"LBTF2 Highlander 3rd Place"
 "TF_TournamentMedal_LBTF2_Highlander_Participant"	"LBTF2 Highlander Participant"
+"TF_TournamentMedal_LBTF2_Highlander_Access_1st"			"LBTF2 Highlander Access 1st Place"
+"TF_TournamentMedal_LBTF2_Highlander_Access_2nd"			"LBTF2 Highlander Access 2nd Place"
+"TF_TournamentMedal_LBTF2_Highlander_Access_3rd"			"LBTF2 Highlander Access 3rd Place"
+"TF_TournamentMedal_LBTF2_Highlander_Access_Participant"	"LBTF2 Highlander Access Participant"
+"TF_TournamentMedal_LBTF2_Highlander_Principal_1st"			"LBTF2 Highlander Principal 1st Place"
+"TF_TournamentMedal_LBTF2_Highlander_Principal_2nd"			"LBTF2 Highlander Principal 2nd Place"
+"TF_TournamentMedal_LBTF2_Highlander_Principal_3rd"			"LBTF2 Highlander Principal 3rd Place"
+"TF_TournamentMedal_LBTF2_Highlander_Principal_Participant"	"LBTF2 Highlander Principal Participant"
 
 "TF_TournamentMedal_FBTF_Cup_6v6_Wastex_Miller_1st"			"FBTF Cup 6v6 Wastex Miller 1st Place"
 "TF_TournamentMedal_FBTF_Cup_6v6_Wastex_Miller_2nd"			"FBTF Cup 6v6 Wastex Miller 2nd Place"
@@ -3367,6 +3376,9 @@
 "Kill_Streak"			"%s1"
 "Duck_Streak"			"%s1"
 
+"SpecialScore_Count"		"scored! x%s1"
+"TeamLeader_Kill"		"killed team leader"
+
 "TF_OK"				"OK"
 
 "TF_Spy_DisguiseRemoved"	"Your disguise has been removed."
@@ -3847,6 +3859,7 @@
 "Gametype_Halloween247"		"Halloween 2014"
 "Gametype_SD"				"Special Delivery"
 "Gametype_RobotDestruction"	"Robot Destruction"
+"Gametype_PlayerDestruction"	"Player Destruction"
 "Gametype_MVM"				"Mann vs. Machine"
 "GameType_Powerup"			"Mannpower"
 "GameType_Medieval"			"Medieval"
@@ -7993,6 +8006,7 @@
 
 "AttribFormat_AdditionalNote"			"( %s1 )"
 
+// Hat Unusuals
 "Attrib_Particle0"			"Invalid Particle"
 "Attrib_Particle1"			"Particle 1"
 "Attrib_Particle2"			"Flying Bits"
@@ -8075,6 +8089,7 @@
 "Attrib_Particle90"			"Death at Dusk"
 
 
+// Weapon Unusual
 "Attrib_Particle701"			"Hot"
 "Attrib_Particle702"			"Isotope"
 "Attrib_Particle703"			"Cool"
@@ -8480,6 +8495,22 @@
 "TF_Dingaling_Volume"			"Hit Sound Volume"
 "Tooltip_Dingaling_Volume"		"The volume for 'hit sounds'."
 
+"TF_Dingaling_PitchLowDmg"				"Hit Sound Low damage pitch"
+"Tooltip_Dingaling_PitchLowDmg"			"Hit sound pitch for attacks that deal 10 damage or less.  Pitch scales between high and low values (Recommend 100)"
+"TF_Dingaling_PitchHighDmg"				"Hit Sound High damage pitch"
+"Tooltip_Dingaling_PitchHighDmg"		"Hit sound pitch for attacks that deal 150 damage or more.  Pitch scales between high and low values  (Recommend 10)"
+
+"tf_dingalingaling_effect"				"Hit Sounds"
+"tf_dingalingaling_Default"    			"Default"
+"tf_dingalingaling_Electro"    			"Electro"
+"tf_dingalingaling_Notes"	  			"Notes"
+"tf_dingalingaling_Percussion" 			"Percussion"
+"tf_dingalingaling_Retro"      			"Retro"
+"tf_dingalingaling_Space"				"Space"
+"tf_dingalingaling_Beepo"				"Beepo"
+"tf_dingalingaling_Vortex"				"Vortex"
+"tf_dingalingaling_Squasher"			"Squasher"
+
 //----------------------------------------------------------------------------------------
 // Arena
 "TF_Arena_Team_Layout"		"Your Team"
@@ -8697,7 +8728,7 @@
 "MMenu_Customize"			"CUSTOMIZE"
 "MMenu_Create"				"CREATE"
 
-"MMenu_Update"				"Gun Mettle Update"
+"MMenu_Update"				"Featured Items"
 "MMenu_ViewUpdateDetails"	"View Details"
 "MMenu_ViewUpdateComic"		"Read the comic"
 "MMenu_OverlayRequired"	"You must enable the Steam Community in-game and restart TF2 to use this feature."
@@ -10736,6 +10767,7 @@
 "Questlog_Track"	"Track"
 "Questlog_Reward"	"Rewards"
 "QuestLog_Title"	"Contracts Drawer"
+"QuestLog_NoContractsPossible" "There is no campaign active.\nContracts are unavailable."
 "QuestLog_NeedPassForContracts"	"To receive contracts\nactivate a Gun Mettle Campaign Pass."
 "QuestLog_NoQuests"	"No contracts available right now.\nCheck back later."
 "Questlog_Progress"	"Progress"
@@ -10766,6 +10798,7 @@
 "TF_Quest_Status_Inactive"				"Inactive"
 "TF_Quest_Status_ReadyToTurnIn"			"Fulfilled"
 
+"TF_QuestExpirationWarning"	"Self-Destruct:\n%s1\n"
 "TF_QuestObjective_Explanation" "************\n\nPerform any of the following tasks to earn Contract Points."
 "QuestObjective_Required"	"%s1 CP"
 "QuestObjective_Optional"	"(Advanced) %s1 CP"
