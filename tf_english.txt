@@ -275,6 +275,7 @@
 "TF_Welcome_meet_the_pyro"		"Welcome"
 "TF_Welcome_mann_vs_machine"	"Welcome"
 "TF_Welcome_eotl_launch"		"Welcome"
+"TF_Welcome_community_update"	"Welcome"
 "TF_Cancel"				"CANCEL (&0)"
 "TF_Back"				"&BACK"
 "TF_WatchIntro"				"&WATCH MOVIE"
@@ -3106,6 +3107,10 @@
 "cp_snowplow_authors"			"Joe 'Fr0z3nR' Radak\nTim 'YM' Johnson\nJames 'McVee' McVinnie\nRebbacus\nZoey 'Sexy Robot' Smith\nDan Escobedo\nEd Harrison\nJohn Dekker"
 "pl_borneo_authors"				"Sean 'Heyo' Cutino\nMatt 'vhalin' Leahy"
 "koth_suijin_authors"			"Freyja\nE-Arkham\nKevin 'Ravidge' Brook\nMaxime 'Fubar' Dupuis"
+"ctf_2fort_invasion_authors"	"Miguel 'BANG!' Melara\nThe Ronin\nMichael Egan\nAeon 'Void' Bollig\nMartin 'Chaofanatic' Ellis\nRyan 'Freeflow' Leitao\nHarlen 'UEAKCrash' Linke\nJames 'Retro' Wright\n"
+"pd_watergate_authors"			"Michael Egan\nLouie 'bakscratch' Turner\nIan 'Wgooch' Gooch\nNassim 'NassimO' Sadoun\nMiguel 'BANG!' Melara\nThijs 'Evil_Knevil' Van Gerrewey\nFissionMetroid101\nJennifer 'NeoDement' Burnett\nAeon 'Void' Bollig\nThe Ronin"
+"arena_byre_authors"			"Ian 'Idolon' Spadin\nGavin 'Equinoxo' Sawford\nGuy 'Gerbil' Ross\nHellJumper\nKevin 'Ravidge' Brook\nMatt 'Boylee' Boyle\nSebastian 'Seba' Grus\nUmbratile\nThe Ronin"
+"koth_probed_authors"			"Harlen 'UEAKCrash' Linke\nFissionMetroid101\nMiguel 'BANG!' Melara\nKevin 'Ravidge' Brook\nThe Ronin"
 
 "TF_YourStats"					"Your Stats"
 "TF_DuckPromoList"				"-All-Class cosmetic with eleven styles\n-Tracks your stats during the End of the Line event\n-View leaderboards and compete with your friends\n-Sales support the End of the Line team"
@@ -3208,10 +3213,10 @@
 "TF_MapToken_Nightfall_Desc"	"A Payload Race Map\n\nMade by Aaron 'Psy' Garcha and Paul Good\n\nPurchasing this item directly supports the creators of the Nightfall community map.  Show your support today!"
 "TF_Frontier"					"Frontier"
 "TF_MapToken_Frontier"			"Map Stamp - Frontier"
-"TF_MapToken_Frontier_Desc"	"A Payload Map\n\nMade by Patrick 'MangyCarface' Mulholland and Arhurt\n\nPurchasing this item directly supports the creators of the Frontier community map.  Show your support today!"
+"TF_MapToken_Frontier_Desc"		"A Payload Map\n\nMade by Patrick 'MangyCarface' Mulholland and Arhurt\n\nPurchasing this item directly supports the creators of the Frontier community map.  Show your support today!"
 "TF_Lakeside"					"Lakeside"
 "TF_MapToken_Lakeside"			"Map Stamp - Lakeside"
-"TF_MapToken_Lakeside_Desc"	"A King of the Hill Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creator of the Lakeside community map.  Show your support today!"
+"TF_MapToken_Lakeside_Desc"		"A King of the Hill Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creator of the Lakeside community map.  Show your support today!"
 "TF_Gullywash"					"Gullywash"
 "TF_MapToken_Gullywash"			"Map Stamp - Gullywash"
 "TF_MapToken_Gullywash_Desc"	"A Control Point Map\n\nMade by Jan 'Arnold' Laroy\n\nPurchasing this item directly supports the creator of the Gullywash community map.  Show your support today!"
@@ -3230,7 +3235,7 @@
 "TF_Map_Snowplow"				"Snowplow"
 "TF_MapToken_Snowplow"			"Map Stamp - Snowplow"
 "TF_MapToken_Snowplow_Desc"		"A Control Point Map\n\nMade by Joe 'Fr0z3nR' Radak, Tim 'YM' Johnson, James 'McVee' McVinnie, Rebbacus, Zoey 'Sexy Robot' Smith, Dan Escobedo, Ed Harrison, and John Dekker\n\nPurchasing this item directly supports the creators of the Snowplow community map.  Show your support today!"
-"TF_MapToken_Snowplow_AdText"		"-Purchasing this item directly supports the creators of the Snowplow community map."
+"TF_MapToken_Snowplow_AdText"	"-Purchasing this item directly supports the creators of the Snowplow community map."
 "TF_Map_Borneo"					"Borneo"
 "TF_MapToken_Borneo"			"Map Stamp - Borneo"
 "TF_MapToken_Borneo_Desc"		"A Payload Map\n\nMade by Sean 'Heyo' Cutino and Matt 'vhalin' Leahy\n\nPurchasing this item directly supports the creators of the Borneo community map.  Show your support today!"
@@ -3239,6 +3244,22 @@
 "TF_MapToken_Suijin"			"Map Stamp - Suijin"
 "TF_MapToken_Suijin_Desc"		"A King of the Hill Map\n\nMade by Freyja, E-Arkham, Kevin 'Ravidge' Brook, and Maxime 'Fubar' Dupuis\n\nPurchasing this item directly supports the creators of the Suijin community map.  Show your support today!"
 "TF_MapToken_Suijin_AdText"		"-Purchasing this item directly supports the creators of the Suijin community map."
+"TF_Map_2FortInv"				"2Fort Invasion"
+"TF_MapToken_2FortInv"			"Map Stamp - 2Fort Invasion"
+"TF_MapToken_2FortInv_Desc"		"A Capture the Flag Map\n\nMade by Miguel 'BANG!' Melara, The Ronin, Michael Egan, Aeon 'Void' Bollig, Martin 'Chaofanatic' Ellis, Ryan 'Freeflow' Leitao, Harlen 'UEAKCrash' Linke, and James 'Retro' Wright\n\nPurchasing this item directly supports the creators of the 2Fort Invasion community map.  Show your support today!"
+"TF_MapToken_2FortInv_AdText"	"-Purchasing this item directly supports the creators of the 2Fort Invasion community map."
+"TF_Map_Probed"					"Probed"
+"TF_MapToken_Probed"			"Map Stamp - Probed"
+"TF_MapToken_Probed_Desc"		"A King of the Hill Map\n\nMade by Harlen 'UEAKCrash' Linke, FissionMetroid101, Miguel 'BANG!' Melara, Kevin 'Ravidge' Brook, and The Ronin\n\nPurchasing this item directly supports the creators of the Probed community map.  Show your support today!"
+"TF_MapToken_Probed_AdText"		"-Purchasing this item directly supports the creators of the Probed community map."
+"TF_Map_Watergate"				"Watergate"
+"TF_MapToken_Watergate"			"Map Stamp - Watergate"
+"TF_MapToken_Watergate_Desc"	"A Player Destruction Map\n\nMade by Michael Egan, Louie 'bakscratch' Turner, Ian 'Wgooch' Gooch, Nassim 'NassimO' Sadoun, Miguel 'BANG!' Melara, Thijs 'Evil_Knevil' Van Gerrewey, FissionMetroid101, Jennifer 'NeoDement' Burnett, Aeon 'Void' Bollig, and The Ronin\n\nPurchasing this item directly supports the creators of the Watergate community map.  Show your support today!"
+"TF_MapToken_Watergate_AdText"	"-Purchasing this item directly supports the creators of the Watergate community map."
+"TF_Map_Byre"					"Byre"
+"TF_MapToken_Byre"				"Map Stamp - Byre"
+"TF_MapToken_Byre_Desc"			"An Arena Map\n\nMade by Ian 'Idolon' Spadin, Gavin 'Equinoxo' Sawford, Guy 'Gerbil' Ross, HellJumper, Kevin 'Ravidge' Brook, Matt 'Boylee' Boyle, Sebastian 'Seba' Grus, Umbratile, and The Ronin\n\nPurchasing this item directly supports the creators of the Byre community map.  Show your support today!"
+"TF_MapToken_Byre_AdText"		"-Purchasing this item directly supports the creators of the Byre community map."
 
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -3310,6 +3331,10 @@
 "TF_Map_Snowplow_StrangePrefix"		" Frozen"
 "TF_Map_Borneo_StrangePrefix"		" Tropical"
 "TF_Map_Suijin_StrangePrefix"		" Water-Logged"
+"TF_Map_2FortInv_StrangePrefix"		" Andromedan"
+"TF_Map_Watergate_StrangePrefix"	" Reptiloid"
+"TF_Map_Byre_StrangePrefix"			" Unidentified"
+"TF_Map_Probed_StrangePrefix"		" Classified"
 
 "TF_MapDonationLevel_Bronze"	"Bronze:"
 "TF_MapDonationLevel_Silver"	"Silver:"
@@ -3865,6 +3890,7 @@
 "GameType_Medieval"			"Medieval"
 "GameType_Featured"			"Gun Mettle"
 "GameType_Passtime"			"PASS Time"
+"GameType_Community_Update"	"Invasion"
 
 "Intro_Title"				"Game Mode Introduction:   %gamemode%"
 
@@ -5854,6 +5880,7 @@
 
 //----------------------------------------------------------------------------------------
 // Items
+
 "TF_Open_Charinfo"			"Open Character Loadout"
 "TF_Open_Charinfo_Backpack"	"Open Backpack"
 "TF_Show_Quest_Log"			"Open Contracts Drawer"
@@ -6111,6 +6138,10 @@
 
 "ToolDecodeConfirm_OptionalAppend_RestrictedContents"		  "\n\nNote: this crate contains items that are only visible during\nthe Halloween event and full moons."
 
+"TF_Store"		"-- Store --"
+"TF_Owned"		"-- Owned --"
+"TF_Market"		"-- Market --"
+
 // Used by strange part/card upgrades.
 "Econ_FreeSlot_Singular"	"slot"
 "Econ_FreeSlot_Plural"		"slots"
@@ -6287,7 +6318,14 @@
 "KillEaterEvent_CosmeticOperationKills"				"Campaign Kills"
 "KillEaterEvent_CosmeticOperationContractsPoints"	"Campaign Contract Points"
 "KillEaterEvent_CosmeticOperationBonusObjectives"	"Campaign Contract Bonus Points"
+"KillEaterEvent_TauntsPerformed"					"Times Performed"
 
+"KillEaterEvent_InvasionKills"						"Kills during Invasion Event"
+"KillEaterEvent_InvasionKillsOnMap01"				"Kills on 2Fort Invasion"
+"KillEaterEvent_InvasionKillsOnMap02"				"Kills on Probed"
+"KillEaterEvent_InvasionKillsOnMap03"				"Kills on Byre"
+"KillEaterEvent_InvasionKillsOnMap04"				"Kills on Watergate"
+	
 "KillEaterEventType_RobotsKilled"						"Robots Destroyed"
 "KillEaterEventType_MinibossRobotsKilled"				"Giant Robots Destroyed"
 "KillEaterEventType_HalloweenRobotKills"				"Robots Killed During Halloween"
@@ -6456,6 +6494,14 @@
 "TF_StrangeFilter_CommunityMapBorneo_Desc"			"Adding this Strange Filter to a Strange-quality item and selecting one of the stats that it tracks will restrict that stat to only counting events on Borneo."
 "TF_StrangeFilter_CommunityMapSuijin"				"Strange Filter: Suijin (Community)"
 "TF_StrangeFilter_CommunityMapSuijin_Desc"			"Adding this Strange Filter to a Strange-quality item and selecting one of the stats that it tracks will restrict that stat to only counting events on Suijin."
+"TF_StrangeFilter_CommunityMap2FortInv"				"Strange Filter: 2Fort Invasion (Community)"
+"TF_StrangeFilter_CommunityMap2FortInv_Desc"		"Adding this Strange Filter to a Strange-quality item and selecting one of the stats that it tracks will restrict that stat to only counting events on 2Fort Invasion."
+"TF_StrangeFilter_CommunityMapProbed"				"Strange Filter: Probed (Community)"
+"TF_StrangeFilter_CommunityMapProbed_Desc"			"Adding this Strange Filter to a Strange-quality item and selecting one of the stats that it tracks will restrict that stat to only counting events on Probed."
+"TF_StrangeFilter_CommunityMapWatergate"			"Strange Filter: Watergate (Community)"
+"TF_StrangeFilter_CommunityMapWatergate_Desc"		"Adding this Strange Filter to a Strange-quality item and selecting one of the stats that it tracks will restrict that stat to only counting events on Watergate."
+"TF_StrangeFilter_CommunityMapByre"					"Strange Filter: Byre (Community)"
+"TF_StrangeFilter_CommunityMapByre_Desc"			"Adding this Strange Filter to a Strange-quality item and selecting one of the stats that it tracks will restrict that stat to only counting events on Byre."
 
 "TF_HalloweenTransmogrifier_Pyro"					"Pyro Costume Transmogrifier"
 "TF_HalloweenTransmogrifier_Pyro_Desc"				"Using this transmogrifier on any Halloween 2013 costume piece will replace it with a costume piece wearable by Pyros."
@@ -7230,16 +7276,39 @@
 
 "TF_ContractReward"						"Contract Reward"
 "TF_ContractReward_Desc"				"Contains a Locked Craftsman Case\nor an item from the Commando Collection"
-"TF_ContractReward_Ad"					"This case contains 16 skinned weapons from the Commando Collection."
+"TF_ContractReward_Ad"					"This case contains 16 skinned weapons from the Commando Collection"
 
 "TF_CraftsmanCase"						"Locked Craftsman Case"
-"TF_CraftsmanCase_Desc"					"Locked Case that requires a Key.\nItem from Craftsman Collection."
-"TF_CraftmansCase_Ad"					"This case contains 16 skinned weapons from the Craftsman Collection."
+"TF_CraftsmanCase_Desc"					"Locked Case that requires a Key.\nItem from Craftsman Collection"
+"TF_CraftmansCase_Ad"					"This case contains 16 skinned weapons from the Craftsman Collection"
 
 "TF_PaintKit_ConcealedKiller"			"Concealed Killer"
 "TF_PaintKit_Craftsmann"				"Craftsmann"
 "TF_PaintKit_Teufort"					"Teufort"
 "TF_PaintKit_Powerhouse"				"Powerhouse"
+
+// Invasion Strings
+"TF_InactiveInvasionPass"				"Invasion Community Update Pass"
+"TF_InactiveInvasionPass_Desc"			"All proceeds go to the Invasion Community Update team\n\nActivate to receive an Invasion Community Update Coin\nOnly one Invasion Community Update Coin can be active at a time\nGrants access to Invasion Community Update case drops through the end of 2015\n\nAvailable for purchase through November 5, 2015"
+"TF_InactiveInvasionPass_AdText"		"-All proceeds go to the Invasion Community Update team\n\n-Grants access to Invasion Community Update case drops through the end of 2015"
+"TF_ActivatedInvasionPass"				"Invasion Community Update Coin"
+"TF_ActivatedInvasionPass_Desc"			"Thank you for supporting the Invasion Community Update Team\nGrants access to Invasion Community Update case drops through the end of 2015\n\nStats are tracked through November 5, 2015"
+"TF_UseInvasionPass_Text"				"Redeeming the pass grants an Invasion Community Update Coin and access to Invasion Community Update case drops through the end of 2015.\n\nThe coin cannot be traded."
+
+"TF_Tool_Invasion2015Key"				"Invasion Community Update Key"
+"TF_Tool_Invasion2015Key_Desc"			"Used to Open The Quarantined Collection Case\nor The Confidential Collection Case"
+"TF_Tool_Invasion2015Key_AdText"		"-Used to Open The Quarantined Collection Case\nor The Confidential Collection Case\n-Contents may be Strange\n-Cases contain Invasion-themed Unusual effects"
+
+"invasion_master_collection"			"Invasion Collections"
+"Invasion_collection_01"				"Quarantined Collection Case"
+"Invasion_collection_02"				"Confidential Collection Case"
+
+"TF_Invasion2015Case01"					"Quarantined Collection Case"
+"TF_Invasion2015Case01_Desc"			"Invasion Community Update Case\n\nRequires Invasion Community Update Key to open\n\nContains Invasion-themed Unusual effects"
+"TF_Invasion2015Case01_AdText"			"-Community case\n-Requires Invasion Community Update Key to open\n-Contents may be Strange\n-Contains Invasion-themed Unusual effects"
+"TF_Invasion2015Case02"					"Confidential Collection Case"
+"TF_Invasion2015Case02_Desc"			"Invasion Community Update Case\n\nRequires Invasion Community Update Key to open\n\nContains Invasion-themed Unusual effects"
+"TF_Invasion2015Case02_AdText"			"-Community case\n-Requires Invasion Community Update Key to open\n-Contents may be Strange\n-Contains Invasion-themed Unusual effects"
 
 "TF_Checkmark"							"✔ "
 "TF_Checkmark_Unusual"					"★ "
@@ -8088,6 +8157,15 @@
 "Attrib_Particle89"			"Morning Glory"
 "Attrib_Particle90"			"Death at Dusk"
 
+"Attrib_Particle91"			"Abduction"
+"Attrib_Particle92"			"Atomic"
+"Attrib_Particle93"			"Subatomic"
+"Attrib_Particle94"			"Electric Hat Protector"
+"Attrib_Particle95"			"Magnetic Hat Protector"
+"Attrib_Particle96"			"Voltaic Hat Protector"
+"Attrib_Particle97"			"Galactic Codex"
+"Attrib_Particle98"			"Ancient Codex"
+"Attrib_Particle99"			"Nebula"
 
 // Weapon Unusual
 "Attrib_Particle701"			"Hot"
@@ -8728,7 +8806,7 @@
 "MMenu_Customize"			"CUSTOMIZE"
 "MMenu_Create"				"CREATE"
 
-"MMenu_Update"				"Featured Items"
+"MMenu_Update"				"Invasion Community Update"
 "MMenu_ViewUpdateDetails"	"View Details"
 "MMenu_ViewUpdateComic"		"Read the comic"
 "MMenu_OverlayRequired"	"You must enable the Steam Community in-game and restart TF2 to use this feature."
@@ -9445,6 +9523,8 @@
 "TF_GifterText_SelfOpen"				"%giver% has opened a package!"
 
 
+
+
 "TF_CollectionCrafting_NoItem"	"No item"
 "TF_CollectionCrafting_NoUnusual"	"No unusual items allowed"
 "TF_CollectionCrafting_NotCraftable"	"Not usable in crafting"
@@ -9711,6 +9791,9 @@
 "TF_GameModeDetail_Featured"	"Select this option to join a game server that continually runs the featured maps for the Gun Mettle Update."
 "TF_GameModeDesc_Passtime"		"Get the jack and score before the enemy team does!"
 "TF_GameModeDetail_Passtime"	"A new beta game mode that smashes TF2's usual mayhem with sports like Soccer, Hockey and Basketball! Two teams face off in an epic battle to score more goals than their opponents. Coordinated passing, aerial shots and interceptions, team-based formations and plays, defensive lines and the like make for strategically chaotic play."
+"TF_GameModeDesc_Community_Update"		"Tour the maps for the Invasion Community Update."
+"TF_GameModeDetail_Community_Update"	"Select this option to join a game server that continually runs the maps for the Invasion Community Update."
+
 //----------------------------------------------------------------------------------------
 // Trading
 "TF_ShowTradeRequestsFrom" "Show Trade Requests From:"
@@ -10652,6 +10735,7 @@
 "TF_Competitive_RequiresPass"			"To play in ranked competitive modes, you must own a Competitive Matchmaking Beta Pass."
 "TF_Competitive_Disconnect"				"The match is over. Thanks for playing!"
 
+
 "TF_QuickplayBeta_OptIn_Title"				"Try Quickplay Beta?"
 "TF_QuickplayBeta_OptIn_Message"				"You can form a search party with friends and find a game server together.\n\nNever get matched into an empty server again!"
 "TF_QuickplayBeta_OptIn_YesButton"				"Try it out"
@@ -10804,6 +10888,7 @@
 "QuestObjective_Optional"	"(Advanced) %s1 CP"
 "QuestPoints_Standard"	"%s1/%s2 CP"
 "QuestPoints_Bonus"	"Bonus: %s1/%s2 CP"
+
 
 "TF_WhoDropped" "Dropped by %s1"
 "TF_OthersGun"	"%s1's\n%s2"
@@ -12298,6 +12383,31 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_cc_summer2015_potassium_bonnett"		"Potassium Bonnett"
 "TF_cc_summer2015_white_russian"		"White Russian"
 "TF_cc_summer2015_el_duderino"		"El Duderino"
+"TF_invasion_taunt_burstchester"		"Taunt: Burstchester"
+"TF_invasion_captain_space_mann"		"Captain Space Mann"
+"TF_invasion_phononaut"		"Phononaut"
+"TF_invasion_corona_australis"		"Corona Australis"
+"TF_invasion_final_frontiersman"		"Final Frontiersman"
+"TF_invasion_starduster"		"Starduster"
+"TF_invasion_the_graylien"		"Graylien" // ADD THE
+"TF_invasion_phobos_filter"		"Phobos Filter"
+"TF_invasion_sucker_slug"		"Sucker Slug"
+"TF_invasion_life_support_system"		"Life Support System"
+"TF_invasion_rocket_operator"		"Rocket Operator"
+"TF_invasion_universal_translator"		"Universal Translator"
+"TF_invasion_cadet_visor"		"Cadet Visor"
+"TF_invasion_a_head_full_of_hot_air"		"A Head Full of Hot Air"
+"TF_invasion_jupiter_jetpack"		"Jupiter Jetpack"
+"TF_invasion_the_space_diver"		"Space Diver" // ADD THE
+"TF_invasion_sniperrifle"			"Shooting Star"
+"TF_invasion_sniperrifle_Desc"		"Turn your enemies in to ash!"
+"TF_invasion_pistol"				"C.A.P.P.E.R" // ADD THE
+"TF_invasion_pistol_Desc"			"Turn your enemies in to ash!"
+"TF_invasion_bat"					"Batsaber"
+"TF_invasion_bat_Desc"				"Energy Overwhelming!\nDisintegrate your enemies!"
+"TF_invasion_wrangler"				"Giger Counter" // ADD THE
+"TF_invasion_space_hamster_hammy"	"Space Hamster Hammy"
+"TF_invasion_community_update_medal"	"Invasion Community Update Medal"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Breather Bag"	// ADD THE
@@ -12403,11 +12513,11 @@ D-pad to move, triggers=faster, A button for next line."
 
 "TF_Powerup_Strength"				"Powerup: Strength"
 "TF_Powerup_Strength_Desc"			"Increased damage from all weapons\nDistance damage falloff immunity"
-"TF_Powerup_Haste"				"Powerup: Haste"
+"TF_Powerup_Haste"					"Powerup: Haste"
 "TF_Powerup_Haste_Desc"				"Increased fire rate, reload rate,\nclip size and max ammo count\nIncreased movement speed"
-"TF_Powerup_Regen"				"Powerup: Regeneration"
+"TF_Powerup_Regen"					"Powerup: Regeneration"
 "TF_Powerup_Regen_Desc"				"Health, ammo and metal regenerate"
-"TF_Powerup_Resist"				"Powerup: Resistance"
+"TF_Powerup_Resist"					"Powerup: Resistance"
 "TF_Powerup_Resist_Desc"			"Incoming damage reduced\nImmune to critical damage multiplier"
 "TF_Powerup_Vampire"				"Powerup: Vampire"
 "TF_Powerup_Vampire_Desc"			"Damage dealt returned as health\nIncoming damage reduced\nIncreased max health"
@@ -12420,15 +12530,15 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_Powerup_Knockout"				"Powerup: Knockout"
 "TF_Powerup_Knockout_Desc"			"Melee critical damage\nMelee damage shoves victim and causes them to drop their powerup\nIncreased Max Health\nPushback immunity"
 
-"TF_Powerup_Pickup_Strength"			"You got the STRENGTH powerup!"
+"TF_Powerup_Pickup_Strength"		"You got the STRENGTH powerup!"
 "TF_Powerup_Pickup_Resist"			"You got the RESISTANCE powerup!"
 "TF_Powerup_Pickup_Regen"			"You got the REGENERATION powerup!"
 "TF_Powerup_Pickup_Haste"			"You got the HASTE powerup!"
 "TF_Powerup_Pickup_Vampire"			"You got the VAMPIRE powerup!"
 "TF_Powerup_Pickup_Warlock"			"You got the WARLOCK powerup!"
-"TF_Powerup_Pickup_Precision"			"You got the PRECISION powerup!"
+"TF_Powerup_Pickup_Precision"		"You got the PRECISION powerup!"
 "TF_Powerup_Pickup_Agility"			"You got the AGILITY powerup!"
-"TF_Powerup_Pickup_Knockout"			"You got the KNOCKOUT powerup!"
+"TF_Powerup_Pickup_Knockout"		"You got the KNOCKOUT powerup!"
 
 "TF_Powerup_Pickup_Deny"			"You already have a powerup!"
 "TF_Powerup_Pickup_Deny_Crit"		"This cannot be used with your current powerup"
@@ -12761,6 +12871,12 @@ RED team wins by defending their Control Points. BLU team wins by capturing all 
 
 Other Notes:
 Control Points cannot be captured while they are locked. RED team cannot regain control of a point once BLU has captured it."
+
+"arena_byre_description"			"Objective:
+Your team must either eliminate all players on the opposing team or capture and own both of the control points.
+
+Other Notes:
+There is no respawning in Arena mode."
 
 "TF_HUD_Event_WeaponPickup"			"You just picked up a new weapon. Would you like to equip it?"
 
