@@ -6321,11 +6321,11 @@
 "KillEaterEvent_CosmeticOperationBonusObjectives"	"Campaign Contract Bonus Points"
 "KillEaterEvent_TauntsPerformed"					"Times Performed"
 
-"KillEaterEvent_InvasionKills"						"Kills during Invasion Event"
-"KillEaterEvent_InvasionKillsOnMap01"				"Kills on 2Fort Invasion"
-"KillEaterEvent_InvasionKillsOnMap02"				"Kills on Probed"
-"KillEaterEvent_InvasionKillsOnMap03"				"Kills on Byre"
-"KillEaterEvent_InvasionKillsOnMap04"				"Kills on Watergate"
+"KillEaterEvent_InvasionKills"						"Kills and Assists during Invasion Event"
+"KillEaterEvent_InvasionKillsOnMap01"				"Kills and Assists on 2Fort Invasion"
+"KillEaterEvent_InvasionKillsOnMap02"				"Kills and Assists on Probed"
+"KillEaterEvent_InvasionKillsOnMap03"				"Kills and Assists on Byre"
+"KillEaterEvent_InvasionKillsOnMap04"				"Kills and Assists on Watergate"
 	
 "KillEaterEventType_RobotsKilled"						"Robots Destroyed"
 "KillEaterEventType_MinibossRobotsKilled"				"Giant Robots Destroyed"
@@ -6797,6 +6797,9 @@
 "KillEater_OperationContractRank2"	"Silver"
 "KillEater_OperationContractRank3"	"Australium"
 "KillEater_OperationContractRank4"	"Australium"
+
+"KillEater_InvasionRank0"			""
+"KillEater_InvasionRank1"			""
 
 "TF_ItemAd_ViewOnMarket" "View on Market"
 
@@ -7700,7 +7703,7 @@
 "Attrib_Renamed"							"This item has been renamed.\nOriginal name: \"%s1\""
 "Attrib_CustomDesc"							"This item has a user written description:"
 "Attrib_Halloween_Item"						"This is a special Halloween %s1 item"
-"Attrib_MapDonation"						"%s1 - %s2"
+"Attrib_MapDonation"						"%s1-%s2"
 "Attrib_NewUsersHelped"						"New Users Helped: %s1"
 "Attrib_FiresHealingBolts"					"Fires special bolts that heal teammates and deal damage based on distance traveled"
 "Attrib_EnablesAOEHeal"						"On Taunt: Applies a healing effect to all nearby teammates"
