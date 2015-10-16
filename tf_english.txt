@@ -6798,9 +6798,6 @@
 "KillEater_OperationContractRank3"	"Australium"
 "KillEater_OperationContractRank4"	"Australium"
 
-"KillEater_InvasionRank0"			""
-"KillEater_InvasionRank1"			""
-
 "TF_ItemAd_ViewOnMarket" "View on Market"
 
 //----------------------------------------------------------------------------------------
@@ -7177,10 +7174,10 @@
 "TF_Tool_WinterKey2014_Nice_Desc"		"Used to open Nice Winter Crate 2014.\nThis key will not open Naughty crates.\n\nAfter 2/16/2015 this will turn into a normal key."
 
 "TF_InactiveOperationPass"				"Gun Mettle Campaign Pass"
-"TF_InactiveOperationPass_desc"			"Activate to receive a Gun Mettle Campaign Coin.\nGrants access to contracts for the duration of the campaign.\nOnly one coin can be active at a time.\n\nThe Gun Mettle Campaign ends September 30, 2015."
+"TF_InactiveOperationPass_desc"			"The Gun Mettle Campaign ended on September 30, 2015.\n\nActivating the Gun Mettle Campaign Pass granted a Gun Mettle Campaign Coin that would grant access to contracts and track stats during the campaign."
 "TF_InactiveOperationPass_AdText"		"-The Gun Mettle Campaign Coin\n-Contribute to community map makers\n-Access to contracts that reward event-exclusive items when completed"
 "TF_ActivatedOperationPass"				"Gun Mettle Campaign Coin"
-"TF_ActivatedOperationPass_desc"		"Grants access to contracts during the Gun Mettle Campaign.\n\nYou can level up this coin by earning Contract Points from completed contracts during the campaign. The coin will level up when you reach 1000, 2000, and 3000 Contract Points.\n\nThe Gun Mettle Campaign ends September 30, 2015."
+"TF_ActivatedOperationPass_desc"		"The Gun Mettle Campaign ended on September 30, 2015.\n\nThe Gun Mettle Campaign Coin granted access to contracts and tracked stats during the campaign. You could level up the coin by earning Contract Points from completed contracts. The coin would level up at 1000, 2000, and 3000 Contract Points."
 
 "TF_Tool_OperationSummer2015Key"		"Gun Mettle Key"
 "TF_Tool_OperationSummer2015Key_Desc"	"Used to open The Concealed Killer\nor The Powerhouse Weapons Case."
