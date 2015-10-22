@@ -12892,7 +12892,7 @@ There is no respawning in Arena mode."
 "Msg_PasstimePassIncoming" "PASS INCOMING"
 "Msg_PasstimeLockedOn" "LOCKED ON"
 "Msg_PasstimeInPassRange" "IN PASS RANGE"
-"Msg_PasstimeBallStolenByBlue" "BLUE STOLE THE JACK!"
+"Msg_PasstimeBallStolenByBlue" "BLU STOLE THE JACK!"
 "Msg_PasstimeBallStolenByRed" "RED STOLE THE JACK!"
 
 "TF_Passtime_HowToPlay"				"Get the jack and score with it!\nHelp friendly jack-carriers reach the goal.\nStop enemy jack-carriers from reaching your goal.\nPress '%attack%' to throw or toss the jack. Hold to aim or maintain lock.\nPress '%attack2%' to cancel aim.\nHold '%attack2%' to prevent or cancel pass lock.\nPress '%attack3%' when a teammate has the jack to call for a pass."
