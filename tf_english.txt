@@ -1,8 +1,8 @@
-﻿"lang" 
-{ 
-"Language" "English" 
-"Tokens" 
-{ 
+﻿"lang"
+{
+"Language" "English"
+"Tokens"
+{
 "TF_LessThan"				"<"
 "TF_GreaterThan"			">"
 "TF_Select"					"SELECT"
@@ -344,7 +344,9 @@
 "TF_Throwable"				"THROW"
 "TF_KillStreak"				"STREAK"
 "TF_Sapper"					"SAPPER"
+"TF_KillCombo"				"COMBO"
 "TF_KILLS"					"KILLS"
+"TF_BONUS"					"BONUS"
 "TF_KART"					"KART"
 
 "TF_OUT_OF_AMMO"			"OUT OF AMMO"
@@ -477,7 +479,7 @@
 "Econ_GreyOutReason_ItemSpecialQuality"			"( Item has special quality. )"
 
 "Econ_MarketTooltipFormat"			"( %s1 available on the Steam Community Market starting at %s2 )"
-"EconAction_Preview"				"Inspect in Game..." 
+"EconAction_Preview"				"Inspect in Game..."
 
 "OnlyAllowUniqueQuality"						"Disallow items with special qualities"
 
@@ -724,7 +726,7 @@
 "TF_TournamentMedal_UGC4v4_Silver_Participant"		"UGC 4vs4 Silver Participant"
 "TF_TournamentMedal_UGC4v4_Steel_Participant"		"UGC 4vs4 Steel Participant"
 "TF_TournamentMedal_UGC4v4_Iron_Participant"		"UGC 4vs4 Iron Participant"
-																			 
+
 "TF_TournamentMedal_Winners_Desc"		"Given to the winners!"
 "TF_TournamentMedal_2nd_Desc"			"Given to the second place team!"
 "TF_TournamentMedal_3rd_Desc"			"Given to the third place team!"
@@ -1171,7 +1173,7 @@
 "TF_TournamentMedal_OSLTF_Participant"			"OSL.tf Participant"
 "TF_TournamentMedal_OSLTF_Cup1"					"Cup #1"
 
-"TF_TournamentMedal_armsrace_first"				"Arms Race 1st Place Medal"				
+"TF_TournamentMedal_armsrace_first"				"Arms Race 1st Place Medal"
 "TF_TournamentMedal_armsrace_second"			"Arms Race 2nd Place Medal"
 "TF_TournamentMedal_armsrace_third"				"Arms Race 3rd Place Medal"
 "TF_TournamentMedal_armsrace_participant"		"Arms Race Participant Medal"
@@ -1263,8 +1265,8 @@
 "TF_Wearable_Satchel"		"Satchel"
 "TF_Wearable_Lantern"		"Lantern"
 "TF_Wearable_Treasure"		"Treasure"
-"TF_Wearable_Bongos"		"Bongos" 
-"TF_Wearable_Tattoos"		"Tattoos" 
+"TF_Wearable_Bongos"		"Bongos"
+"TF_Wearable_Tattoos"		"Tattoos"
 "TF_Wearable_Cigar"			"Cigar"
 "TF_Wearable_Botkiller"		"Botkiller"
 "TF_Wearable_Hair"			"Hair"
@@ -1326,6 +1328,8 @@
 "TF_Wearable_Vest"		"Vest"
 "TF_Wearable_Holster"	"Holster"
 "TF_Wearable_Horns"		"Horns"
+"TF_Wearable_Life_Support" "Life Support"
+"TF_Wearable_Jetpack"		"Jetpack"
 
 "TF_TauntEnabler_Laugh"		"Taunt: The Schadenfreude"
 "TF_TauntEnabler_Laugh_Desc"	"Share a good natured laugh with everyone except that one guy you just shot."
@@ -1590,7 +1594,7 @@
 
 // Used by filter dropdowns in the store
 "Store_Filter_All"			"All"
-				
+
 // Used by sorting dropdowns
 "Store_Sorter_ReleaseNewest"		"Newest First"
 "Store_Sorter_ReleaseOldest"		"Oldest First"
@@ -1731,7 +1735,7 @@
 
 "TF_Bundle_DemoHalloween2011"			"The Highland Hound Bundle"
 "TF_Bundle_DemoHalloween2011_Desc"		"Celebrate Halloween using these items:"
-"TF_Bundle_ScoutHalloween2011"			"The Curse-a-Nature Bundle"			
+"TF_Bundle_ScoutHalloween2011"			"The Curse-a-Nature Bundle"
 "TF_Bundle_ScoutHalloween2011_Desc"		"Celebrate Halloween using these items:"
 "TF_Bundle_PyroHalloween2011"			"The Infernal Imp Bundle"
 "TF_Bundle_PyroHalloween2011_Desc"		"Celebrate Halloween using these items:"
@@ -1746,7 +1750,7 @@
 "TF_Bundle_SniperHalloween2011"			"The Camper Van Helsing Bundle"
 "TF_Bundle_SniperHalloween2011_Desc"	"Celebrate Halloween using these items:"
 "TF_Bundle_EngineerHalloween2011"		"The Brundle Bundle Bundle"
-"TF_Bundle_EngineerHalloween2011_Desc"	"Celebrate Halloween using these items:"	
+"TF_Bundle_EngineerHalloween2011_Desc"	"Celebrate Halloween using these items:"
 "TF_Bundle_Halloween2011"				"Halloween 2011 Costume Bundle of Bundles"
 "TF_Bundle_Halloween2011_Desc"			"Celebrate Halloween using these items:"
 
@@ -1801,7 +1805,7 @@
 "TF_Portal2_Soundtrack_Promo"		"Portal 2 Soundtrack Promo"
 "TF_Portal2_Soundtrack_Promo_Desc"				""
 "TF_Portal2_Soundtrack_Promo_Package"			"What's in the Portal 2 Soundtrack Box?"
-"TF_Portal2_Soundtrack_Promo_Package_Desc"		"Open the Portal 2 Soundtrack Box to reveal its contents." 
+"TF_Portal2_Soundtrack_Promo_Package_Desc"		"Open the Portal 2 Soundtrack Box to reveal its contents."
 "TF_TotalWarBundle"					"Total War Bundle"
 "TF_TotalWarBundle_Desc"					""
 "TF_RedHeavy_ActionFigure_Promo"			"Red Heavy Action Figure Promo"
@@ -1906,7 +1910,7 @@
 "TF_XCOM_Hair_Style1"		"Brown"
 "TF_XCOM_Pyro"			"Area 451"
 "TF_XCOM_Pyro_Desc"			"If aliens ever invaded Badlands and used their special alien powers to make all of our heads look like alien heads, this is a scientifically accurate representation of what Pyro would look like. We tried doing similar mock-ups with the rest of the TF team, but we finished one of Heavy and haven't stopped crying and vomiting long enough to do the other ones."
-"TF_XCOM_Pin"			"Vigilant Pin" // ADD THE 
+"TF_XCOM_Pin"			"Vigilant Pin" // ADD THE
 "TF_XCOM_Pin_Desc"			"This pin proudly states to all that you are at least vaguely aware of the possibility that maybe aliens exist. You've been to some of those conventions; you've looked pensively into the sky; you've watched Signs a couple of times. If extraterrestrials ever show up, you can proudly show others this badge and proclaim that you once entertained the possibility that this was maybe going to happen one day. "
 
 "TF_Robot_Sandvich"		"Robo-Sandvich" // ADD THE
@@ -2453,14 +2457,14 @@
 "TF_GRFS_2_Desc"				"This full spectrum battle monocle receives signals from a satellite at light speed, which means you may have to slow down a little so they can catch up to you."
 "TF_GRFS_3"						"Doublecross-Comm" // ADD THE
 "TF_GRFS_3_Desc"				"This battlefield awareness bandanna is stitched with nanofibers that can download battlefields from Wikipedia straight to your face, so you will never not be aware of them."
-												   
+
 "TF_QC_Badge"				"Atomic Accolade" // ADD THE
 "TF_QC_Badge_Desc"				"Skip past all the boring busywork of science and get right to the exciting part: the fabulous prizes! This prestigious ribbon certifies your bravery in the field of excellence."
 "TF_QC_Flasks"				"Professor's Pineapple" // ADD THE
 "TF_QC_Flasks_Desc"				"We don't know what's in it, but we found it in some rusty drums buried in a shallow grave in a forest, so let's face it, you'll probably get super powers if you drink it."
 "TF_QC_MedicGlove"			"Quadwrangler" // ADD THE
 "TF_QC_MedicGlove_Desc"				"This quantum-collared lab coat includes a handy rubber pipe that siphons blood from your heart, where it is not needed, to your shooting arm, where it is!"
-												   
+
 "TF_MedicClipboard"				"Surgeon's Side Satchel" // ADD THE
 "TF_MedicClipboard_Desc"		"This compact medical equipment bag makes the perfect accessory for the doctor on the go. Treat patients out of doors, in the fresh unsterile air of the battlefield."
 "TF_DemoTreasureChest"			"Liquor Locker" // ADD THE
@@ -2501,7 +2505,7 @@
 
 "TF_KillerExclusive"		"Killer Exclusive" // ADD THE
 "TF_KillerExclusive_Desc"	"Break news, spirits and heads."
-					 
+
 "TF_Portal2_Pin"		"Companion Cube Pin"
 
 "TF_MNC_Hat"				"The Athletic Supporter"
@@ -2582,7 +2586,7 @@
 "TF_Bootlegger_Desc"					"Amaze your friends! Impress women! Walk with a limp for life! It's grotesque!"
 "TF_ScottishHandshake"					"Scottish Handshake" // ADD THE
 "TF_ScottishHandshake_Desc"				"Your enemies will think you're making peace, right up until the terrifying moment that their hand is very seriously cut! Here's the trick: It's a broken bottle!"
-"TF_OldBrimstone"						"A Whiff of the Old Brimstone" 
+"TF_OldBrimstone"						"A Whiff of the Old Brimstone"
 "TF_OldBrimstone_Desc"					"Your enemies will clap in delight at the cartoonish innocence of these old-timey bombs, making it that much sweeter when you blow their arms off."
 "TF_SoldierHat1"						"Salty Dog" // ADD THE
 "TF_SoldierHat1_Desc"					"Get all of a boat captain's respect without the crushing responsibility of actually captaining a boat or the enormous amount of ongoing maintenance a boat requires!"
@@ -2639,7 +2643,7 @@
 "TF_ShinyBauls"					"Ornament Armament" // ADD THE
 "TF_ShinyBauls_Desc"				"Just a like the Soldier's actual grenades, these shiny glass baubles are purely ornamental. "
 "TF_SandvichSafe"				"Sandvich Safe" // ADD THE
-"TF_SandvichSafe_Desc"				"Keep sandvich safe with sandvich safe. Okay, is good, no more description. Buy." 
+"TF_SandvichSafe_Desc"				"Keep sandvich safe with sandvich safe. Okay, is good, no more description. Buy."
 "TF_IncineratorsInsulator"		"Head Warmer" // ADD THE
 "TF_IncineratorsInsulator_Desc"		"This incinerator's insulator keeps your head a perfect 105 degrees, while muffling the hallucinations brought on by wearing a hat that slowly cooks your brain."
 "TF_TouchingStory"				"Outback Intellectual" // ADD THE
@@ -2847,7 +2851,7 @@
 "TF_UnknownMonkeynaut"				"Unknown Monkeynaut" // ADD THE
 "TF_UnknownMonkeynaut_Desc"			"Have an actual ghost of Mann Co.'s first doomed monkeynaut expedition haunt your shoulder! Unlike the many other doomed monkeynaut expeditions undertaken by Mann Co., Operation Banana Catapult was unique in that no space shuttles were even used."
 "TF_GrandDuchessTutu"				"Grand Duchess Tutu" // ADD THE
-"TF_GrandDuchessTutu_Desc"			"Celebrate the life of Grand Duchess Anastasia Nikolaevna with this somber historical costume. Enjoy this replica of the tutu she wore while governing Russia from atop her hundred-foot-tall gumdrop throne."	
+"TF_GrandDuchessTutu_Desc"			"Celebrate the life of Grand Duchess Anastasia Nikolaevna with this somber historical costume. Enjoy this replica of the tutu she wore while governing Russia from atop her hundred-foot-tall gumdrop throne."
 "TF_GrandDuchessFairyWings"			"Grand Duchess Fairy Wings" // ADD THE
 "TF_GrandDuchessFairyWings_Desc"	"Celebrate the life of Grand Duchess Anastasia Nikolaevna with this somber historical costume. Enjoy this replica of the fairy wings she wore while governing Russia from atop her hundred-foot-tall gumdrop throne."
 "TF_GrandDuchessTiara"				"Grand Duchess Tiara" // ADD THE
@@ -3082,9 +3086,9 @@
 
 "TF_DotaGamescom2011_Hat_Desc"  "DOTA 2 International Championship\nGamescom 2011"
 
-"cp_fastlane_authors"	"Arttu 'SK' Mäki"
-"ctf_turbine_authors"	"Flobster"
-"cp_steel_authors"		"Jamie 'Fishbus' Manson\nDan 'Irish Taxi Driver' Merboth\nFLOOR_MASTER"
+"cp_fastlane_authors"			"Arttu 'SK' Mäki"
+"ctf_turbine_authors"			"Flobster"
+"cp_steel_authors"				"Jamie 'Fishbus' Manson\nDan 'Irish Taxi Driver' Merboth\nFLOOR_MASTER"
 "cp_egypt_final_authors"		"Sean 'Heyo' Cutino"
 "cp_junction_final_authors"		"Sean 'Heyo' Cutino"
 "arena_watchtower_authors"		"Joshua 'JoshuaC' Shiflet"
@@ -3100,7 +3104,7 @@
 "pl_frontier_authors"			"Patrick 'MangyCarface' Mulholland\nArhurt"
 "koth_lakeside_authors"			"Valentin '3DNJ' Levillain"
 "cp_gullywash_final1_authors"	"Jan 'Arnold' Laroy"
-"koth_king_authors"			"Valentin '3DNJ' Levillain"
+"koth_king_authors"				"Valentin '3DNJ' Levillain"
 "cp_process_final_authors"		"Ian 'Scorpio Uprising' Cuslidge"
 "cp_standin_final_authors"		"Ian 'Scorpio Uprising' Cuslidge"
 "cp_snakewater_final1_authors"	"Toivo 'chojje' Sawen"
@@ -3111,6 +3115,10 @@
 "pd_watergate_authors"			"Michael Egan\nLouie 'bakscratch' Turner\nIan 'Wgooch' Gooch\nNassim 'NassimO' Sadoun\nMiguel 'BANG!' Melara\nThijs 'Evil_Knevil' Van Gerrewey\nFissionMetroid101\nJennifer 'NeoDement' Burnett\nAeon 'Void' Bollig\nThe Ronin"
 "arena_byre_authors"			"Ian 'Idolon' Spadin\nGavin 'Equinoxo' Sawford\nGuy 'Gerbil' Ross\nHellJumper\nKevin 'Ravidge' Brook\nMatt 'Boylee' Boyle\nSebastian 'Seba' Grus\nUmbratile\nThe Ronin"
 "koth_probed_authors"			"Harlen 'UEAKCrash' Linke\nFissionMetroid101\nMiguel 'BANG!' Melara\nKevin 'Ravidge' Brook\nThe Ronin"
+"cp_gorge_event_authors"		"Paul 'puxorb' Broxup"
+"cp_sunshine_event_authors"		"Rebecca 'phi' Ailes\nKimberly 'iiboharz' Riswick\nHarlen 'UEAKCrash' Linke"
+"koth_moonshine_event_authors"	"Josh 'Hey You' Harris\nHarlen 'UEAKCrash' Linke\nJake 'Jukebox' Jackubowski\nPsyke"
+"pl_millstone_event_authors"	"Tomi 'ICS' Uurainen"
 
 "TF_YourStats"					"Your Stats"
 "TF_DuckPromoList"				"-All-Class cosmetic with eleven styles\n-Tracks your stats during the End of the Line event\n-View leaderboards and compete with your friends\n-Sales support the End of the Line team"
@@ -3180,7 +3188,7 @@
 "TF_MapToken_Turbine_Desc"		"A Capture the Flag Map\n\nMade by Flobster\n\nPurchasing this item directly supports the creator of the Turbine community map.  Show your support today!"
 "TF_Steel"						"Steel"
 "TF_MapToken_Steel"				"Map Stamp - Steel"
-"TF_MapToken_Steel_Desc"		"An Attack/Defence Control Point Map\n\nMade by Jamie 'Fishbus' Manson, Dan 'Irish Taxi Driver' Merboth and FLOOR_MASTER\n\nPurchasing this item directly supports the creators of the Steel community map.  Show your support today!"
+"TF_MapToken_Steel_Desc"		"An Attack/Defend Control Point Map\n\nMade by Jamie 'Fishbus' Manson, Dan 'Irish Taxi Driver' Merboth and FLOOR_MASTER\n\nPurchasing this item directly supports the creators of the Steel community map.  Show your support today!"
 "TF_Junction"					"Junction"
 "TF_MapToken_Junction"			"Map Stamp - Junction"
 "TF_MapToken_Junction_Desc"		"An Attack/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creator of the Junction community map.  Show your support today!"
@@ -3204,7 +3212,7 @@
 "TF_MapToken_Freight_Desc"		"A Control Point Map\n\nMade by Jamie 'Fishbus' Manson and Mitch 'ol' Robb\n\nPurchasing this item directly supports the creators of the Freight community map.  Show your support today!"
 "TF_MountainLab"				"Mountain Lab"
 "TF_MapToken_MountainLab"		"Map Stamp - Mountain Lab"
-"TF_MapToken_MountainLab_Desc"	"An Attack/Defence Control Point Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creator of the Mountain Lab community map.  Show your support today!"
+"TF_MapToken_MountainLab_Desc"	"An Attack/Defend Control Point Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creator of the Mountain Lab community map.  Show your support today!"
 "TF_ManorEvent"					"Mann Manor"
 "TF_MapToken_ManorEvent"		"Map Stamp - Mann Manor"
 "TF_MapToken_ManorEvent_Desc"	"An Attack/Defend Control Point Map\n\nMade by Tim 'YM' Johnson and Alex 'Rexy' Kreeger\n\nPurchasing this item directly supports the creators of the Mann Manor community map.  Show your support today!"
@@ -3260,6 +3268,22 @@
 "TF_MapToken_Byre"				"Map Stamp - Byre"
 "TF_MapToken_Byre_Desc"			"An Arena Map\n\nMade by Ian 'Idolon' Spadin, Gavin 'Equinoxo' Sawford, Guy 'Gerbil' Ross, HellJumper, Kevin 'Ravidge' Brook, Matt 'Boylee' Boyle, Sebastian 'Seba' Grus, Umbratile, and The Ronin\n\nPurchasing this item directly supports the creators of the Byre community map.  Show your support today!"
 "TF_MapToken_Byre_AdText"		"-Purchasing this item directly supports the creators of the Byre community map."
+"TF_Map_GorgeEvent"				"Gorge Event"
+"TF_MapToken_GorgeEvent"		"Map Stamp - Gorge Event"
+"TF_MapToken_GorgeEvent_Desc"	"An Attack/Defend Control Point Map\n\nMade by Paul 'puxorb' Broxup\n\nPurchasing this item directly supports the creator of the Gorge Event community map.  Show your support today!"
+"TF_MapToken_GorgeEvent_AdText"	"-Purchasing this item directly supports the creators of the Gorge Event community map."
+"TF_Map_SunshineEvent"			"Sinshine"
+"TF_MapToken_SunshineEvent"		"Map Stamp - Sinshine"
+"TF_MapToken_SunshineEvent_Desc"	"A Control Point Map\n\nMade by Rebecca 'phi' Ailes, Kimberly 'iiboharz' Riswick, and Harlen 'UEAKCrash' Linke\n\nPurchasing this item directly supports the creators of the Sinshine community map.  Show your support today!"
+"TF_MapToken_SunshineEvent_AdText"	"-Purchasing this item directly supports the creators of the Sinshine community map."
+"TF_Map_MoonshineEvent"				"Moonshine Event"
+"TF_MapToken_MoonshineEvent"		"Map Stamp - Moonshine Event"
+"TF_MapToken_MoonshineEvent_Desc"	"A King of the Hill Map\n\nMade by Josh 'Hey You' Harris, Harlen 'UEAKCrash' Linke, Jake 'Jukebox' Jackubowski, and Psyke\n\nPurchasing this item directly supports the creators of the Moonshine Event community map.  Show your support today!"
+"TF_MapToken_MoonshineEvent_AdText"	"-Purchasing this item directly supports the creators of the Moonshine Event community map."
+"TF_Map_MillstoneEvent"				"Hellstone"
+"TF_MapToken_MillstoneEvent"		"Map Stamp - Hellstone"
+"TF_MapToken_MillstoneEvent_Desc"	"A Payload Map\n\nMade by Tomi 'ICS' Uurainen\n\nPurchasing this item directly supports the creator of the Hellstone community map.  Show your support today!"
+"TF_MapToken_MillstoneEvent_AdText"	"-Purchasing this item directly supports the creators of the Hellstone community map."
 
 "TF_Map_cp_powerhouse"			"Powerhouse"
 "TF_Map_cp_dustbowl"			"Dustbowl"
@@ -3300,9 +3324,10 @@
 "TF_Map_arena_sawmill"			"Sawmill Arena"
 "TF_Map_arena_well"				"Well Arena"
 "TF_Map_rd_asteroid"			"RD Asteroid - BETA"
-"TF_Map_powerup_ctf_foundry"	"Foundry - BETA"
-"TF_Map_powerup_ctf_gorge"		"Gorge - BETA"
-"TF_Map_powerup_ctf_thundermountain"		"Thundermountain - BETA"
+"TF_Map_powerup_ctf_foundry"	"CTF Foundry"
+"TF_Map_powerup_ctf_gorge"		"CTF Gorge"
+"TF_Map_powerup_ctf_thundermountain"	"CTF Thundermountain"
+"TF_Map_powerup_ctf_hellfire"		"CTF Hellfire"
 "TF_Map_pass_warehouse"			"Warehouse - BETA"
 "TF_Map_pass_warehouse_goal2"	"Warehouse Goal2 - BETA"
 
@@ -3335,6 +3360,10 @@
 "TF_Map_Watergate_StrangePrefix"	" Reptiloid"
 "TF_Map_Byre_StrangePrefix"			" Unidentified"
 "TF_Map_Probed_StrangePrefix"		" Classified"
+"TF_Map_GorgeEvent_StrangePrefix"		" Gluttonous"
+"TF_Map_SunshineEvent_StrangePrefix"	" Sinful"
+"TF_Map_MoonshineEvent_StrangePrefix"	" Gibbous"
+"TF_Map_MillstoneEvent_StrangePrefix"	" Infernal"
 
 "TF_MapDonationLevel_Bronze"	"Bronze:"
 "TF_MapDonationLevel_Silver"	"Silver:"
@@ -3445,7 +3474,7 @@
 "TF_Obj_Teleporter_State_Idle"		"Looking for Matching Teleporter"
 "TF_Obj_Teleporter_State_Ready"				"Ready"
 "TF_Obj_Teleporter_State_Charging"			"Charging"
-			
+
 "Teleporter_idle"					"This teleporter does not have a match."
 
 //
@@ -3556,7 +3585,7 @@
 "Hydro_red_base_defend"			"Defend your final Control Point against BLU or they will win!"
 "Hydro_blue_base_attack"		"Capture team RED's final Control Point to win the game!"
 "Hydro_blue_base_defend"		"Defend your final Control Point against RED or they will win!"
-"Hydro_cap_red_base"		"the RED Base"	
+"Hydro_cap_red_base"		"the RED Base"
 "Hydro_cap_blue_base"		"the BLU Base"
 "Hydro_cap_radar_dish"		"the Radar Dish"
 "Hydro_cap_dam"				"the Dam"
@@ -3635,7 +3664,7 @@
 // Frontier
 "frontier_setup_goal_red"		"Prevent BLU from escorting the payload to the laser array!"
 "frontier_setup_goal_blue"		"Guide Lil' Chew-Chew to the delivery site!"
-		 
+
 
 // sd_doomsday gameplay strings
 "doomsday_setup_goal"			"Deliver the Australium to the rocket warhead to win the game!"
@@ -3801,7 +3830,7 @@
 "Cant_cap_stealthed"		"Cannot capture point\n    while invisible."
 "Cant_cap_disguised"		"Cannot capture point\n    while disguised."
 "Cant_cap_invuln"		"Cannot capture point\n  while invulnerable."
-"Cant_cap_stunned"		"Cannot capture point\n    while stunned." 
+"Cant_cap_stunned"		"Cannot capture point\n    while stunned."
 
 // Robot Destruction Strings
 "TF_RD_RobotsUnderAttack"	"Your ROBOTS are UNDER ATTACK!"
@@ -3882,7 +3911,7 @@
 "Gametype_AnyGameMode"		"Any game mode"
 "Gametype_Halloween"		"Halloween"
 "Gametype_HalloweenMix"		"Halloween Mix"
-"Gametype_Halloween247"		"Halloween 2014"
+"Gametype_Halloween247"		"Halloween 2015"
 "Gametype_SD"				"Special Delivery"
 "Gametype_RobotDestruction"	"Robot Destruction"
 "Gametype_PlayerDestruction"	"Player Destruction"
@@ -3918,7 +3947,7 @@
 "Intro_attack_defense_intro"		"This is an attack defense map,  \nBLU tries to capture areas while RED tries to stop them."
 "Intro_attack_defense_capping"		"BLU must stand near the Capture Point to capture it.\nThe HUD shows your capture progress."
 "Intro_attack_defense_cap_a"		"BLU must capture both Capture point A ..."
-"Intro_attack_defense_cap_b"		"and also Capture point B.  \nBLU can capture the points in any order." 
+"Intro_attack_defense_cap_b"		"and also Capture point B.  \nBLU can capture the points in any order."
 "Intro_attack_defense_cap_final"	"After BLU owns capture point A and capture point B the final Capture point unlocks"
 "Intro_attack_defense_cap_timer"        "BLU earns 3 minutes on the timer for each successfully captured point. RED cannot capture points back once BLU own them."
 
@@ -3964,7 +3993,7 @@
 "Hint_Engineer_upgrade_sentrygun"	"Upgrade sentry guns by hitting them with your wrench.\nThey can be upgraded all the way to level 3!"
 "Hint_object_has_sapper"		"This building is being destroyed by a sapper!\n Shoot the sapper to destroy it!"
 
-"Hint_object_your_object_sapped"	"One of your buildings is being destroyed!"	
+"Hint_object_your_object_sapped"	"One of your buildings is being destroyed!"
 "Hint_enemy_using_dispenser"		"An enemy is using your dispenser!"
 "Hint_enemy_using_tp_entrance"		"An enemy is near your teleporter entrance!"
 "Hint_enemy_using_tp_exit"			"An enemy is near your teleporter exit!"
@@ -4086,7 +4115,7 @@
 "Tip_1_12"				"As a Scout, the Sandman's baseball cannot stun foes at close range, but it will completely stun an enemy at max range."
 "Tip_1_13"				"As a Scout, use the Bonk! Atomic Punch energy drink to traverse dangerous terrain and absorb Sentry Gun fire for teammates."
 "Tip_1_14"				"As a Scout, use Mad Milk to douse flames on yourself and on your teammates."
-"Tip_1_15"				"As a Scout, the Shortstop deals more damage than the Scattergun at mid-range."  
+"Tip_1_15"				"As a Scout, the Shortstop deals more damage than the Scattergun at mid-range."
 "Tip_1_16"				"As a Scout, if you have the Candy Cane equipped, killed foes will always drop free health kits, regardless of which weapon you used."
 "Tip_1_17"				"As a Scout, be careful when using Crit-A-Cola. Saving it for surprise attacks and taking advantage of your speed can help you avoid taking extra damage."
 "Tip_1_18"				"As a Scout, you and your allies regain lost health when hitting enemies drenched in Mad Milk. Initiate fights with it to improve your team's survivability."
@@ -4097,7 +4126,7 @@
 "Tip_1_23"				"As a Scout, you can utilize both the Force-A-Nature's knockback and Atomizer's triple jump for a quadruple jump combination!"
 "Tip_1_24"				"As a Scout, the Atomizer will allow you to perform a triple jump! Use it to outmaneuver enemies and access hard-to-reach areas!"
 "Tip_1_25"				"As a Scout, the Winger inflicts more damage than the Pistol, but this is offset by its reduced magazine size. Use the Winger at close range in order to ensure that you hit your target!"
-"Tip_1_26"				"As a Scout, the Shortstop is very effective at medium to long range, allowing you to maintain your distance from dangerous enemies." 
+"Tip_1_26"				"As a Scout, the Shortstop is very effective at medium to long range, allowing you to maintain your distance from dangerous enemies."
 "Tip_1_27"				"As a Scout, the Wrap Assassin's secondary attack (%attack2%) can be used to inflict bleeding damage on enemies! Use it to damage enemies from a distance."
 
 "Tip_2_Count"				"22"
@@ -4123,7 +4152,7 @@
 "Tip_2_20"				"As a Sniper, the Bazaar Bargain's charge rate is initially lower, but you can increase it by collecting heads. To collect heads, get a scoped headshot kill."
 "Tip_2_21"				"As a Sniper with the Machina, consider equipping the Submachine Gun to handle enemies in situations where scoping in for a shot is too difficult."
 "Tip_2_22"				"As a Sniper, the Shahanshah has increased damage when your health is below 50%.  Use it to counter enemies harassing you once you've taken damage."
-					
+
 "Tip_3_Count"				"26"
 "Tip_3_1"				"As a Soldier, you can rocket jump to great heights or distances by simultaneously jumping and firing a rocket on nearby surfaces; crouching as you jump will increase the momentum you gain from the rocket."
 "Tip_3_2"				"As a Soldier, aim rockets at an enemy's feet in order to ensure that they can't avoid the explosion damage."
@@ -4210,7 +4239,7 @@
 "Tip_5_23"				"As a Medic, taunting with the Amputator will heal all nearby teammates."
 "Tip_5_24"				"As a Medic, your Crusader's Crossbow does damage to enemies or heals teammates upon a successful hit."
 "Tip_5_25"				"As a Medic, timing is everything. If it is safe to do so, withhold your ÜberCharge until just the right moment in order to maximize its effectiveness."
-"Tip_5_26"				"As a Medic, a successful hit with the Blutsauger will restore three health as well as damage the enemy. Use it when injured, when retreating, when on fire or when playing offensively." 
+"Tip_5_26"				"As a Medic, a successful hit with the Blutsauger will restore three health as well as damage the enemy. Use it when injured, when retreating, when on fire or when playing offensively."
 "Tip_5_27"				"As a Medic, the Vita-Saw will retain up to 20%% of your ÜberCharge meter if you die before activating it. This can be very useful when attempting to assault a strongly-fortified position with only a small amount of time remaining."
 "Tip_5_28"				"As a Medic, the Solemn Vow allows you to see the health of enemies; use this information to identify weakened enemies to your team."
 "Tip_5_29"				"As a Medic, the Quick-Fix heals damage rapidly, making it useful for healing multiple teammates quickly."
@@ -4412,14 +4441,14 @@
 
 "Building_hud_tele_times_used_360"		"Used:\n%timesused%"
 
-"Building_hud_sentry_not_built"			"Sentry\nNot Built"				
+"Building_hud_sentry_not_built"			"Sentry\nNot Built"
 "Building_hud_disp_sentry_not_built"	"Disposable Sentry\nNot Built"
 "Building_hud_dispenser_not_built"		"Dispenser\nNot Built"
 "Building_hud_tele_enter_not_built"		"Entrance\nNot Built"
 "Building_hud_tele_exit_not_built"		"Exit\nNot Built"
 "Building_hud_tele_not_built"			"Teleporter Entrance\nNot Built"
 
-"Building_hud_sentry_not_built_360"			"Sentry\nNot Built"				
+"Building_hud_sentry_not_built_360"			"Sentry\nNot Built"
 "Building_hud_tele_enter_not_built_360"		"Entrance\nNot Built"
 "Building_hud_tele_exit_not_built_360"		"Exit\nNot Built"
 
@@ -4430,8 +4459,8 @@
 "Hud_Menu_Teleport_Base"				"Base"
 
 "Hud_Menu_Build_Cant_Afford"			"Not Enough\nMetal"
-"Hud_Menu_Build_Already_Built"			"Already Built" 
-"Hud_Menu_Build_Unavailable"			"Not Available" 
+"Hud_Menu_Build_Already_Built"			"Already Built"
+"Hud_Menu_Build_Unavailable"			"Not Available"
 "Hud_Menu_Build_Cancel"					"Hit '%lastinv%' to Cancel"
 
 "Hud_Menu_Spy_Minus_Toggle"				"Hit '%disguiseteam%' or '%reload%' to Toggle Team"
@@ -4532,9 +4561,9 @@
 
 // System Link Dialog
 "TF_SystemLink_Host_Title"	"Host a Match"
-"TF_SystemLink_Host_Desc"	"Create a match on your Local Area Network."   
+"TF_SystemLink_Host_Desc"	"Create a match on your Local Area Network."
 "TF_SystemLink_Join_Title"	"Join a Match"
-"TF_SystemLink_Join_Desc"	"Find another match to join on your\nLocal Area Network." 
+"TF_SystemLink_Join_Desc"	"Find another match to join on your\nLocal Area Network."
 
 // Options Dialog Titles
 "TF_PlayerMatch_Host_Title"	"Create a Custom Player Match"
@@ -4787,20 +4816,20 @@
 "TF_PARACHUTE_KILL_GRIND_DESC"					"Kill 10 parachuting players."
 "TF_MELEE_KILL_CLASSIC_RIFLE_SNIPER_NAME"		"Punching Bag"
 "TF_MELEE_KILL_CLASSIC_RIFLE_SNIPER_DESC"		"Melee kill 10 Snipers using The Classic."
-"TF_KILL_CHARGING_DEMO_NAME"				"Emergency Brake"	
-"TF_KILL_CHARGING_DEMO_DESC"				"Kill a charging Demoman."	
-"TF_TAUNT_CONGA_KILL_NAME"				"Party Crasher"	
-"TF_TAUNT_CONGA_KILL_DESC"				"Kill 3 players who are doing the Conga within 5 seconds."	
-"TF_TAUNT_CONGA_LINE_NAME"				"Conga Line"	
-"TF_TAUNT_CONGA_LINE_DESC"				"Do the Conga with 10 or more players at the same time."	
-"TF_TAUNT_RPS_ROCK_NAME"				"On The Rocks"	
-"TF_TAUNT_RPS_ROCK_DESC"				"Lose at Rock, Paper, Scissors 3 times in a row with Rock."	
-"TF_TAUNT_RPS_SCISSORS_NAME"			"Running With Scissors"	
-"TF_TAUNT_RPS_SCISSORS_DESC"			"Win at Rock, Paper, Scissors 3 times in a row with Scissors."	
-"TF_TAUNT_DOSIDO_MELLE_KILL_NAME"			"May I Cut In, Too?"	
-"TF_TAUNT_DOSIDO_MELLE_KILL_DESC"			"Melee kill 10 players while they are doing the Square Dance taunt."	
-"TF_TAUNT_WHILE_CAPPING_NAME"			"Showboat"	
-"TF_TAUNT_WHILE_CAPPING_DESC"			"Do 10 partner taunts with a teammate while capturing a control point."	
+"TF_KILL_CHARGING_DEMO_NAME"				"Emergency Brake"
+"TF_KILL_CHARGING_DEMO_DESC"				"Kill a charging Demoman."
+"TF_TAUNT_CONGA_KILL_NAME"				"Party Crasher"
+"TF_TAUNT_CONGA_KILL_DESC"				"Kill 3 players who are doing the Conga within 5 seconds."
+"TF_TAUNT_CONGA_LINE_NAME"				"Conga Line"
+"TF_TAUNT_CONGA_LINE_DESC"				"Do the Conga with 10 or more players at the same time."
+"TF_TAUNT_RPS_ROCK_NAME"				"On The Rocks"
+"TF_TAUNT_RPS_ROCK_DESC"				"Lose at Rock, Paper, Scissors 3 times in a row with Rock."
+"TF_TAUNT_RPS_SCISSORS_NAME"			"Running With Scissors"
+"TF_TAUNT_RPS_SCISSORS_DESC"			"Win at Rock, Paper, Scissors 3 times in a row with Scissors."
+"TF_TAUNT_DOSIDO_MELLE_KILL_NAME"			"May I Cut In, Too?"
+"TF_TAUNT_DOSIDO_MELLE_KILL_DESC"			"Melee kill 10 players while they are doing the Square Dance taunt."
+"TF_TAUNT_WHILE_CAPPING_NAME"			"Showboat"
+"TF_TAUNT_WHILE_CAPPING_DESC"			"Do 10 partner taunts with a teammate while capturing a control point."
 
 // Medic Achievement Pack
 "TF_MEDIC_TOP_SCOREBOARD_NAME"	"First Do No Harm"
@@ -5923,6 +5952,7 @@
 "NewItemMethod_RecipeOutput" "You Received from a Recipe:"
 "NewItemMethod_QuestOutput" "You Completed a Contract and Received:"
 "NewItemMethod_TradeUp"	"You traded up for:"
+"NewItemMethod_QuestMerasmissionOutput" "You Completed a Merasmission and Received:"
 
 "NextItem"				"VIEW\nNEXT >"
 "PreviousItem"			"VIEW\n< PREV"
@@ -6217,19 +6247,20 @@
 "Backpack_SortBy_Type"		"Sort by Type"
 "Backpack_SortBy_Class"		"Sort by Class"
 "Backpack_SortBy_Slot"		"Sort by Loadout Slot"
+"Backpack_SortBy_Date"		"Sort by Date"
 "BackpackShowRarities"		"Show Quality Colors"
 "ItemTypeDesc"			"Level %s1 %s2"		// s1 is the level number, s2 is the item type. Example: "Level 4 Medigun"
 "ItemTypeDescNoLevel"	"Level %s1"			// s1 is the level number. Example: "Level 12"
 
 "ItemTypeDescLimited"	"%s3Level %s1 %s2"		// s1 is the level number, s2 is the item type. %s3 is Limited Tag, Example: "Limited Edition Level 4 Medigun"
-// s1 is the kill eater rank, 
-// s2 is the item type, 
-// s3 is the string for lifetime kills (*) of this weapon; 
-// %s4 is for what sort of event we're tracking (ie., kills, ubers); 
-// %s5 is for a restriction on that event; 
+// s1 is the kill eater rank,
+// s2 is the item type,
+// s3 is the string for lifetime kills (*) of this weapon;
+// %s4 is for what sort of event we're tracking (i.e., kills, ubers);
+// %s5 is for a restriction on that event;
 // %s6 is for a secondary rank token. Example: "(Veteran) (Solid )(Fish), (Kills)( on Hightower): (82948)"
 // %s7 is Limited Quantity Tag if applicable
-"ItemTypeDescKillEater"		"%s7%s1%s6 %s2 - %s4%s5: %s3"	
+"ItemTypeDescKillEater"		"%s7%s1%s6 %s2 - %s4%s5: %s3"
 
 "ItemTypeDescKillEaterAlt"		"(%s2%s3: %s1)" // maps to s3/s4/s5 above. Example: "(Critical Kills)(): (8129)"
 "ItemTypeDescKillEaterAltv2"	"     %s2%s3: %s1" // maps to s3/s4/s5 above. Example: "(Critical Kills)(): (8129)"
@@ -6326,7 +6357,11 @@
 "KillEaterEvent_InvasionKillsOnMap02"				"Kills and Assists on Probed"
 "KillEaterEvent_InvasionKillsOnMap03"				"Kills and Assists on Byre"
 "KillEaterEvent_InvasionKillsOnMap04"				"Kills and Assists on Watergate"
-	
+
+"KillEaterEvent_HalloweenSouls"						"Souls Collected"
+"KillEaterEvent_HalloweenContractsCompleted"		"Merasmissions Completed"
+"KillEaterEvent_HalloweenOfferings"					"Halloween Transmutes Performed"
+
 "KillEaterEventType_RobotsKilled"						"Robots Destroyed"
 "KillEaterEventType_MinibossRobotsKilled"				"Giant Robots Destroyed"
 "KillEaterEventType_HalloweenRobotKills"				"Robots Killed During Halloween"
@@ -6503,6 +6538,14 @@
 "TF_StrangeFilter_CommunityMapWatergate_Desc"		"Adding this Strange Filter to a Strange-quality item and selecting one of the stats that it tracks will restrict that stat to only counting events on Watergate."
 "TF_StrangeFilter_CommunityMapByre"					"Strange Filter: Byre (Community)"
 "TF_StrangeFilter_CommunityMapByre_Desc"			"Adding this Strange Filter to a Strange-quality item and selecting one of the stats that it tracks will restrict that stat to only counting events on Byre."
+"TF_StrangeFilter_CommunityMapGorgeEvent"			"Strange Filter: Gorge Event (Community)"
+"TF_StrangeFilter_CommunityMapGorgeEvent_Desc"		"Adding this Strange Filter to a Strange-quality item and selecting one of the stats that it tracks will restrict that stat to only counting events on Gorge Event."
+"TF_StrangeFilter_CommunityMapSunshineEvent"		"Strange Filter: Sinshine (Community)"
+"TF_StrangeFilter_CommunityMapSunshineEvent_Desc"	"Adding this Strange Filter to a Strange-quality item and selecting one of the stats that it tracks will restrict that stat to only counting events on Sinshine."
+"TF_StrangeFilter_CommunityMapMoonshineEvent"		"Strange Filter: Moonshine Event (Community)"
+"TF_StrangeFilter_CommunityMapMoonshineEvent_Desc"	"Adding this Strange Filter to a Strange-quality item and selecting one of the stats that it tracks will restrict that stat to only counting events on Moonshine Event."
+"TF_StrangeFilter_CommunityMapMillstoneEvent"		"Strange Filter: Hellstone (Community)"
+"TF_StrangeFilter_CommunityMapMillstoneEvent_Desc"	"Adding this Strange Filter to a Strange-quality item and selecting one of the stats that it tracks will restrict that stat to only counting events on Hellstone."
 
 "TF_HalloweenTransmogrifier_Pyro"					"Pyro Costume Transmogrifier"
 "TF_HalloweenTransmogrifier_Pyro_Desc"				"Using this transmogrifier on any Halloween 2013 costume piece will replace it with a costume piece wearable by Pyros."
@@ -6543,7 +6586,7 @@
 "TF_KillStreakifierTool"			"Killstreak Kit"
 
 "TF_ChemSetCrate_Name"	"Unopened Chemistry Set"
-			
+
 "TF_Cosmetic_Strangifier_Recipe"	"Chemistry Set"
 
 "TF_ItemDynamicRecipe_Use"	"Inspect"
@@ -6603,7 +6646,7 @@
 "SpiritOfGivingRank6"         "The Distinguished Donator's"
 "SpiritOfGivingRank7"         "The Dynamic Do-Gooder's"
 "SpiritOfGivingRank8"         "The Consumate Contributor's"
-"SpiritOfGivingRank9"         "The Baron of Bequeathment's" 
+"SpiritOfGivingRank9"         "The Baron of Bequeathment's"
 "SpiritOfGivingRank10"        "The Lord of Largesse's"
 "SpiritOfGivingRank11"        "The Chieftain of Charity's"
 "SpiritOfGivingRank12"        "The Generalissimo of Generosity's"
@@ -6797,6 +6840,13 @@
 "KillEater_OperationContractRank2"	"Silver"
 "KillEater_OperationContractRank3"	"Australium"
 "KillEater_OperationContractRank4"	"Australium"
+
+"KillEater_HalloweenSoulsRank0"	"Sad"
+"KillEater_HalloweenSoulsRank1"	"Silly"
+"KillEater_HalloweenSoulsRank2"	"Sneering"
+"KillEater_HalloweenSoulsRank3"	"Happy"
+"KillEater_HalloweenSoulsRank4"	"Happy"
+
 
 "TF_ItemAd_ViewOnMarket" "View on Market"
 
@@ -7275,6 +7325,7 @@
 "teufort_rocketlauncher_smalltownbringdown"			"Smalltown Bringdown"	// ADD THE
 "teufort_shotgun_civicduty"							"Civic Duty"	// ADD THE
 
+
 "TF_ContractReward"						"Contract Reward"
 "TF_ContractReward_Desc"				"Contains a Locked Craftsman Case\nor an item from the Commando Collection"
 "TF_ContractReward_Ad"					"This case contains 16 skinned weapons from the Commando Collection"
@@ -7290,8 +7341,8 @@
 
 // Invasion Strings
 "TF_InactiveInvasionPass"				"Invasion Community Update Pass"
-"TF_InactiveInvasionPass_Desc"			"All proceeds go to the Invasion Community Update Team\n\nActivate to receive an Invasion Community Update Coin\nOnly one Invasion Community Update Coin can be active at a time\nGrants access to Invasion Community Update case drops through the end of 2015\n\nAvailable for purchase through November 5, 2015"
-"TF_InactiveInvasionPass_AdText"		"-All proceeds go to the Invasion Community Update Team\n\n-Grants access to Invasion Community Update case drops through the end of 2015"
+"TF_InactiveInvasionPass_Desc"			"All proceeds go to the Invasion Community Update team\n\nActivate to receive an Invasion Community Update Coin\nOnly one Invasion Community Update Coin can be active at a time\nGrants access to Invasion Community Update case drops through the end of 2015\n\nAvailable for purchase through November 5, 2015"
+"TF_InactiveInvasionPass_AdText"		"-All proceeds go to the Invasion Community Update team\n\n-Grants access to Invasion Community Update case drops through the end of 2015"
 "TF_ActivatedInvasionPass"				"Invasion Community Update Coin"
 "TF_ActivatedInvasionPass_Desc"			"Thank you for supporting the Invasion Community Update Team\nGrants access to Invasion Community Update case drops through the end of 2015\n\nStats are tracked through November 5, 2015"
 "TF_UseInvasionPass_Text"				"Redeeming the pass grants an Invasion Community Update Coin and access to Invasion Community Update case drops through the end of 2015.\n\nThe coin cannot be traded."
@@ -7311,6 +7362,24 @@
 "TF_Invasion2015Case02_Desc"			"Invasion Community Update Case\n\nRequires Invasion Community Update Key to open\n\nContains Invasion-themed Unusual effects"
 "TF_Invasion2015Case02_AdText"			"-Community case\n-Requires Invasion Community Update Key to open\n-Contents may be Strange\n-Contains Invasion-themed Unusual effects"
 
+// Halloween 2015 Strings
+"TF_Halloween2015Pass"					"Soul Gargoyle"
+"TF_Halloween2015Pass_desc"				"Active until November 11, 2015.\n\nThe Soul Gargoyle grants access to Merasmissions.\nYou can level up the gargoyle by collecting souls. Souls can be found by killing enemies, completing Merasmissions and finding Soul Gargoyles.\nLevels up at 666, 1337, and 2000 Souls.\n\nProvides access to a Halloween transmute where you can transmute 3 items for a non-tradable Halloween item from years past.\nA bonus is given for every 10 transmutes."
+
+"halloween2015_collection_name"			"Gargoyle Collection"
+"halloween2015_collection_desc"			"This Case is locked and requires a\nGargoyle Key to open.\n\nContains a community made item \nfrom the Gargoyle Collection."
+
+"halloween2015_collection_case"			"Gargoyle Case"
+"halloween2015_collection_desc"			"This Case is locked and requires a\nGargoyle Key to open.\n\nContains a community made item \nfrom the Gargoyle Collection."
+"halloween2015_collection_adtext"		"-Gargoyle Case\n-Contains Community Cosmetics\n-Requires a Gargoyle Key to open\n-Contents may be Strange and hats may be Unusual.\n-Unusuals have unique effects to this case"
+
+"halloween2015_collection_key"			"Gargoyle Key"
+"halloween2015_collection_key_desc"		"Used to Open the Gargoyle Case"
+"halloween2015_collection_key_adtext"	"-Used to Open the Gargoyle Case\n-Contents may be Strange and hats may be Unusual.\n-Unusuals have unique effects to this case"
+
+"halloween2015_collection_case_footer"	"Contents may be Strange or Unusual with a Halloween 2015 effect"
+
+// Collection Ui Label Strings
 "TF_Checkmark"							"✔ "
 "TF_Checkmark_Unusual"					"★ "
 "TF_LackOfCheckmark"					"    "
@@ -7522,8 +7591,8 @@
 "Attrib_NoCritVsNonBurning"					"No critical hits vs non-burning players"
 "Attrib_ModFlamethrowerPush"				"No compression blast"
 "Attrib_ModFlamethrower_BackCrits"			"100% critical hits from behind"
-"Attrib_MaxHealth_Positive"					"+%s1 max health on wearer" 
-"Attrib_MaxHealth_Negative"					"%s1 max health on wearer" 
+"Attrib_MaxHealth_Positive"					"+%s1 max health on wearer"
+"Attrib_MaxHealth_Negative"					"%s1 max health on wearer"
 "Attrib_FistsHaveRadialBuff"				"On Kill: +50 health on nearby teammates\nOn Kill: +10% Crit Chance on nearby teammates"
 "Attrib_CritBoost_OnKill"					"On Kill: %s1 seconds of 100% critical chance"
 "Attrib_Slow_Enemy_OnHit"					"On Hit: %s1% chance to slow target"
@@ -7883,8 +7952,8 @@
 "Attrib_Uses_Ammo_While_Aiming"			"Consumes an additional %s1 ammo per second while spun up"
 "Attrib_Sapper_Degenerates_Buildings"	"Reverses enemy building construction"
 "Attrib_Cleaver_Description"			"Throw at your enemies to make them bleed!\nLong distance hits cause mini-crits"
-"Attrib_CritVsStunned"					"100% critical hit vs stunned players" 
-"Attrib_CritVsWet"						"100% critical hit vs wet players" 
+"Attrib_CritVsStunned"					"100% critical hit vs stunned players"
+"Attrib_CritVsWet"						"100% critical hit vs wet players"
 "Attrib_ClipSize_Atomic"				"+%s1 clip size"
 "Attrib_HalloweenSpell_RGB"				"%s1"
 "Attrib_HalloweenSpell_Footstep"		"%s1"
@@ -7906,7 +7975,7 @@
 "Attrib_CritStreakChance_Large"			"Large Chance to become Crit Boosted when you deal damage."
 "Attrib_UberOnHitChance"				"+%s1% Chance to become Übered when enemies damage you."
 "Attrib_DamageSameClass"				"+%s1% Damage to Enemies of the Same Class"
-"Attrib_TeleportInsteadOfDie"			"+%s1% Chance to Teleport to base when taking damage that would otherwise kill you." 
+"Attrib_TeleportInsteadOfDie"			"+%s1% Chance to Teleport to base when taking damage that would otherwise kill you."
 "Attrib_MeleeCleaveAttack"				"Cleave Attack"
 "Attrib_Sentry_Build_Rate"				"Sentry build speed increased by %s1%"
 "Attrib_Teleporter_Build_Rate"			"Increases teleporter build speed by %s1%."
@@ -8168,6 +8237,15 @@
 "Attrib_Particle98"			"Ancient Codex"
 "Attrib_Particle99"			"Nebula"
 
+// Halloween Unusual
+"Attrib_Particle100"			"Death by Disco"
+"Attrib_Particle101"			"It's a mystery to everyone"
+"Attrib_Particle102"			"It's a puzzle to me "
+"Attrib_Particle103"			"Ether Trail"
+"Attrib_Particle104"			"Nether Trail"
+"Attrib_Particle105"			"Ancient Eldrich"
+"Attrib_Particle106"			"Eldrich Flame"
+
 // Weapon Unusual
 "Attrib_Particle701"			"Hot"
 "Attrib_Particle702"			"Isotope"
@@ -8380,7 +8458,7 @@
 "TF_DEX_Revolver"			"Diamondback" // ADD THE
 "TF_DEX_Revolver_Desc"		""
 "TF_DEX_Rifle"				"Machina" // ADD THE
-"TF_DEX_Rifle_Desc"			""	 
+"TF_DEX_Rifle_Desc"			""
 "TF_DEX_Shotgun"			"Widowmaker" // ADD THE
 "TF_DEX_Shotgun_Desc"		""
 "TF_DEX_Pistol"				"Short Circuit" // ADD THE
@@ -8428,7 +8506,7 @@
 "TF_Unique_EnergyDrink_CritCola_Desc" 	"While under the effects, +25% movement speed,\nyour attacks mini-crit, and damage taken increased by 10%."
 "TF_Unique_MediGun_QuickFix_Desc"	"Move at the speed of any faster heal target.\nMirror blast jumps of patients."
 "TF_Unique_MediGun_Resist_Desc"		"ÜberCharge provides a 2.5 second resistance bubble that blocks 75% base damage and 100% crit damage of the selected type to the Medic and Patient."
-"TF_HalloweenBoss_Axe_Desc"		"This weapon has a large melee range.\nCursed by dark spirits similar to\nthose that dwell within the Eyelander."																									
+"TF_HalloweenBoss_Axe_Desc"		"This weapon has a large melee range.\nCursed by dark spirits similar to\nthose that dwell within the Eyelander."
 "TF_SacredMedicine_Desc" "While under the effects, damage done\nand damage taken will be mini-crits.\nYou will also move much faster."
 
 "TF_TTG_MaxGun_Desc"				"The ultimate in semi-concealed weaponry.\nThere's no question you need this gun,\nthe only question is: where will you keep it?"
@@ -8484,7 +8562,7 @@
 
 "Item_Giveaway_NoItem"				"Waiting for item..."
 
-// WARNING: The code MUST be able find the '::' in this string. The second : will be replaced by a color code for the quality. 
+// WARNING: The code MUST be able find the '::' in this string. The second : will be replaced by a color code for the quality.
 "Item_Found"						"%s1 has found:: %s2 %s3"
 "Item_Crafted"						"%s1 has crafted:: %s2 %s3"
 "Item_Traded"						"%s1 has traded for:: %s2 %s3"
@@ -8501,6 +8579,7 @@
 "Item_RecipeOutput"					"%s1 has completed a recipe and received:: %s2 %s3"
 "Item_QuestOutput"					"%s1 has completed a Contract and received:: %s2 %s3"
 "Item_TradeUp"						"%s1 has traded up for:: %s2 %s3"
+"Item_QuestMerasmissionOutput"		"%s1 has completed a Merasmission and received:: %s2 %s3"
 
 "Item_BlacklistedInMatch"			"Item '%s1' has been disabled in this tournament match by the server whitelist."
 "Item_Named"						"%s1 has renamed their %s2 to %s3"
@@ -8656,7 +8735,7 @@
 //----------------------------------------------------------------------------------------
 // TF2 MMO
 "TF_MMO_LFG"		"Looking For Group"
-"TF_MMO_Quest1"		"You must kill %s1 %s2 to complete this quest."			
+"TF_MMO_Quest1"		"You must kill %s1 %s2 to complete this quest."
 "TF_MMO_Monster1"	"Boars"
 "TF_MMO_Monster2"	"Rats"
 "TF_MMO_Monster3"	"Bats"
@@ -8807,7 +8886,7 @@
 "MMenu_Customize"			"CUSTOMIZE"
 "MMenu_Create"				"CREATE"
 
-"MMenu_Update"				"Invasion Community Update"
+"MMenu_Update"				"Scream Fortress"
 "MMenu_ViewUpdateDetails"	"View Details"
 "MMenu_ViewUpdateComic"		"Read the comic"
 "MMenu_OverlayRequired"	"You must enable the Steam Community in-game and restart TF2 to use this feature."
@@ -8908,6 +8987,8 @@
 "TradeUpsExplanation_Stamp_Title"	"Stamp"
 "TradeUpsExplanation_Stamp_Text"	"Click here to apply a stamp.\n\nOnce the return address is filled out and stamp applied, you may then send your items to Mann Co."
 
+
+
 //----------------------------------------------------------------------------------------
 // Right Click Context Menu
 "Context_UseTool"			"Use with..."
@@ -8921,6 +9002,9 @@
 "Context_InspectModel"		"Inspect Item"
 "Context_CraftUp"			"Mann Co. Trade-Up"
 "Context_Style"				"Style"
+"Context_Unusual"			"Unusual"
+"Context_StrangeParts"		"Strange Parts"
+"Context_HalloweenOffering"	"Halloween Transmute      "	// Must have spaces
 
 //----------------------------------------------------------------------------------------
 // Store
@@ -9544,7 +9628,23 @@
 "TF_CollectionCrafting_WaitingForResponse" "Waiting for response..."
 "TF_CollectionCrafting_ReponseTimeout" "There was no response from the item server.\nYour items have been returned."
 
-"TF_CollectionCrafting_Result0"	"You traded up for:"
+"TF_CollectionCrafting_Instructions_Halloween" "Exchange 3 qualifying items for 1 ‘Classic’ Halloween item.  Resulting item will not be tradable or usable in crafting."
+"TF_CollectionCrafting_Halloween_Paragraph1" "Tired of items you don't want\nclogging up your inventory\nlike a corpse-ridden coffin,\nor a bat-filled cave,\nor a bat-filled corpse?"
+"TF_CollectionCrafting_Halloween_Paragraph2" "REEL IN HORROR at the ability\nto transmute three items for\nA RANDOM UNTRADABLE\nCLASSIC HALLOWEEN ITEM!"
+"TF_CollectionCrafting_Halloween_Paragraph3" "QUESTION YOUR VERY SENSES at the shock of\nA NERVE SHATTERING BONUS every ten terror-trades!"
+"TF_CollectionCrafting_Halloween_Explanation_Overview_Title"	"Halloween Transmuting"
+"TF_CollectionCrafting_Halloween_Explanation_Overview_Text"	"Here you're able to transmute 3 items into an untradable and uncraftable 'classic' Halloween item.  Only certain items are allowed to be used in a transmutation."
+"TF_CollectionCrafting_Halloween_Explanation_ItemToTrade_Title"	"Items for Transmuting"
+"TF_CollectionCrafting_Halloween_Explanation_ItemToTrade_Text"	"Click here to attach items you're willing to transmute.  Only valid items are shown when you go to select an item for transmuting."
+
+"TF_CollectionCrafting_Result0"		"You traded up for:"
+"TF_CollectionCrafting_NextItem"	"Next Item"
+
+"TF_HalloweenOffering_Result0"		"Your transmute result"
+
+"TF_HalloweenOffering_NoItem"		"No item"
+"TF_HalloweenOffering_NoUnusual"	"No unusual items allowed"
+"TF_HalloweenOffering_Invalid"		"Not usable in transmute"
 
 "TF_UseBackpackExpander_Title"		   "Expand Backpack?"
 "TF_UseBackpackExpander_Text"		   "Are you sure you want to expand your backpack to %new_size% slots? (%item_name% has %uses_left% use(s) before it will be removed from your inventory)"
@@ -9674,7 +9774,7 @@
 "TF_Coach_JoiningStudent"		"Joining the student's game."
 "TF_Coach_WaitingForServer"		"Waiting for a response from the server."
 "TF_Coach_SessionEnded_Title"		"Coaching"
-"TF_Coach_SessionEnded_Text"		"The coaching session has ended. You are now in Spectator mode."							
+"TF_Coach_SessionEnded_Text"		"The coaching session has ended. You are now in Spectator mode."
 // in game ui
 "TF_Coach_ControlView"			"Press to Change View"
 "TF_Coach_Student_Prefix"		"Student: %s1"
@@ -9779,9 +9879,9 @@
 "TF_GameModeDesc_Koth"			"One team must control a single point until time runs out."
 "TF_GameModeDetail_Koth"		"Capture the Control Point and defend it until your team's timer runs out.\n\nThe Control Point cannot be captured while locked.\n\nIf the enemy team captures the Control Point, your team's timer will pause until you recapture the point."
 "TF_GameModeDesc_HalloweenMix"		"Play all of the Halloween event maps."
-"TF_GameModeDetail_HalloweenMix"	"Tour the Halloween maps, past and present: Carnival of Carnage (2014), Helltower (2013), Ghost Fort (2012), Eyeaduct (2011), Mann Manor (2010), and Harvest (2009)."
-"TF_GameModeDesc_Halloween247"		"Help Merasmus fix his haunted carnival!"
-"TF_GameModeDetail_Halloween247"	"Select this option to join a game server that continually runs the 2014 Halloween map, Carnival of Carnage."
+"TF_GameModeDetail_HalloweenMix"	"Tour the Halloween maps, past and present: Gorge Event (2015), Sinshine (2015), Moonshine Event (2015), Hellstone (2015), Carnival of Carnage (2014), Helltower (2013), Ghost Fort (2012), Eyeaduct (2011), Mann Manor (2010), and Harvest (2009)."
+"TF_GameModeDesc_Halloween247"		"Play all of the 2015 Halloween community maps."
+"TF_GameModeDetail_Halloween247"	"Select this option to join a game server that continually runs the 2015 Halloween community maps: Gorge Event, Sinshine, Moonshine Event, and Hellstone."
 "TF_GameModeDesc_SD"			"Deliver the Australium suitcase to the deployment site."
 "TF_GameModeDetail_SD"			"Both teams fight over a single Australium suitcase and the honor of delivering it.\n\nWhen the suitcase is dropped by the enemy you'll need to defend it until it returns to the neutral drop site."
 "TF_GameModeDesc_RobotDestruction"	"Destroy robots and steal points faster than the enemy team."
@@ -9953,7 +10053,7 @@
 "ArmoryButton_Wiki"			"Item Wiki Page..."
 "ArmoryButton_SetDetails"	"Examine Set"
 "ArmoryButton_Store"		"View in Store"
-	
+
 // Some of these strings have control characters embedded to set colors.
 // The control characters can be copied and pasted in notepad.
 // Using any of the color characters will implicitly end a link.
@@ -10033,6 +10133,9 @@
 "TF_HalloweenItem_Reserved_Purgatory"	"A Haunted Halloween Gift has mysteriously appeared somewhere down below, placed just for you... go and find it!"
 "TF_HalloweenItem_Granted"			"%recipient% found the Haunted Halloween Gift!"
 "TF_HalloweenItem_GrantPickupFail"	"The Haunted Halloween Gift has disappeared!"
+
+"TF_HalloweenItem_SoulAppeared"			"A Soul Gargoyle has mysteriously appeared for you. Go and find it!"
+"TF_HalloweenItem_SoulDisappeared"		"The Soul Gargoyle has disappeared"
 
 "TF_Halloween_Boss_Appeared"		"The Horseless Headless Horsemann has appeared!\n"
 "TF_Halloween_Boss_Killed"			"The Horseless Headless Horsemann has been defeated!\n"
@@ -10194,8 +10297,8 @@
 "TF_Trial_CannotTrade_Title"	"Upgrade Today!"
 "TF_Trial_CannotTrade_Text"		"Free accounts cannot initiate trades. Upgrade now and you'll be able to trade!"
 "TF_Trial_MainMenu_Upsell_Soldier"  "This is the Mann Co. store! There are many deadly items inside of it endorsed by ME! There are also hats and they are LOVELY! Go! SHOP! SHOP! SHOP!"
-"TF_Trial_MainMenu_Upsell_Heavy"    "This is Mann Co. store. Buy, don't buy, Heavy does not care. Hat would help your tiny baby head not look so stupid maybe. But not Heavy's problem." 
-"TF_Trial_MainMenu_Upsell_Spy"      "Gentlemen. You work hard. You deserve to look your best. Why not treat yourself to quality items befitting a charming rogue of your stature?"                
+"TF_Trial_MainMenu_Upsell_Heavy"    "This is Mann Co. store. Buy, don't buy, Heavy does not care. Hat would help your tiny baby head not look so stupid maybe. But not Heavy's problem."
+"TF_Trial_MainMenu_Upsell_Spy"      "Gentlemen. You work hard. You deserve to look your best. Why not treat yourself to quality items befitting a charming rogue of your stature?"
 "TF_Trial_MainMenu_Upsell_Medic"    "The Hippocratic Oath states 'First, do no harm.' Many people forget the next line: 'Second, buy a hat at the Mann Co. Store.'"
 "TF_Trial_MainMenu_Upsell_Pyro"     "MMMPH-MPH-MMMMMPHMMPH-MANN CO. STORE! MMMMMPH-MMMMPH-MMHPMMPH-HATS! MMMPH-MPH-MMMPH-MPH-ITEMS! MMMMMHPMMPH-MMMPH-MPHMMPHMMPH-FIRE!"
 "TF_Trial_MainMenu_Upsell_Demoman"  "Ach! Do ye not know enough to put a hat on your noggin? Your great bald head is an embarrassment, lad! For God's sake, get ye to the Mann Co. Store!"
@@ -10419,7 +10522,7 @@
 "TF_PVE_Inactive_Upgrades" 	"Unequipped Upgrades"
 "TF_PVE_Hint_Header" "Mann Co. Anti-Robot Tips"
 "TF_PVE_Buyback"		"Hit '%use_action_slot_item%' to pay %s1 credits and RESPAWN INSTANTLY!"
-"TF_PVE_Upgraded_Player"	"%player% has purchased the %upgrade% upgrade." 
+"TF_PVE_Upgraded_Player"	"%player% has purchased the %upgrade% upgrade."
 "TF_PVE_Upgraded_Item"		"%player% has purchased the %upgrade% upgrade for their %item%."
 "TF_PVE_Player_BuyBack"		"%player% has bought back into the game for '%credits%' credits!"
 "TF_PVE_No_Powerup_Bottle"	"No Power Up Canteen equipped!\n\nCanteens can be activated with '%use_action_slot_item%' to provide powerful effects such as extra damage and invincibility.\n\nEarn one by completing any Mann vs. Machine Mission or craft one from spare Scrap Metal!"
@@ -10649,7 +10752,7 @@
 "TF_MVM_Challenge_Mannhattan"		"Big Apple Barricade"
 "TF_MVM_Challenge_Mannhattan1"		"Empire Escalation"
 "TF_MVM_Challenge_Mannhattan2"		"Metro Malice"
-												 
+
 "TF_MVM_Map_Any"	"<Any map>"
 
 "TF_MVM_Victory"				"Victory!"
@@ -10683,7 +10786,7 @@
 "TF_MvM_Killstreak_Recipe_2"	"Fabricator"
 
 "TF_Item_GlitchedCircuitBoard"			"Glitched Circuit Board"
-"TF_Item_GlitchedCircuitBoard_Desc"		"The remains of a Robo GateBot Light. It self-destructed after falling into the hands of a human." 
+"TF_Item_GlitchedCircuitBoard_Desc"		"The remains of a Robo GateBot Light. It self-destructed after falling into the hands of a human."
 
 "TF_Matchmaking_Party"					"Party"
 "TF_Matchmaking_SearchForAll"			"Search for: Games in progress"
@@ -10735,7 +10838,23 @@
 "TF_Competitive_RequiresPass_Title"		"Beta Access Pass Required"
 "TF_Competitive_RequiresPass"			"To play in ranked competitive modes, you must own a Competitive Matchmaking Beta Pass."
 "TF_Competitive_Disconnect"				"The match is over. Thanks for playing!"
+"TF_Competitive_GCDown"					"The server's connection to the game coordinator has timed out.  This match has ended, and is now safe to leave."
 
+// work in progress..temp names
+"TF_Competitive_Rank_1"					"Recruit"
+"TF_Competitive_Rank_2"					"Mercenary"
+"TF_Competitive_Rank_3"					"Field Mercenary"
+"TF_Competitive_Rank_4"					"Veteran Mercenary"
+"TF_Competitive_Rank_5"					"Infiltrator"
+"TF_Competitive_Rank_6"					"Operator"
+"TF_Competitive_Rank_7"					"Raider"
+"TF_Competitive_Rank_8"					"Guerrilla"
+"TF_Competitive_Rank_9"					"Agent"
+"TF_Competitive_Rank_10"				"Field Agent"
+"TF_Competitive_Rank_11"				"Master Agent"
+"TF_Competitive_Rank_12"				"Assassin"
+"TF_Competitive_Rank_13"				"Field Assassin"
+"TF_Competitive_Rank_14"				"Elite Assassin"
 
 "TF_QuickplayBeta_OptIn_Title"				"Try Quickplay Beta?"
 "TF_QuickplayBeta_OptIn_Message"				"You can form a search party with friends and find a game server together.\n\nNever get matched into an empty server again!"
@@ -10852,17 +10971,25 @@
 "Questlog_Track"	"Track"
 "Questlog_Reward"	"Rewards"
 "QuestLog_Title"	"Contracts Drawer"
+"QuestLog_Title_Halloween"	"Tome of Merasmissions"
 "QuestLog_NoContractsPossible" "There is no campaign active.\nContracts are unavailable."
 "QuestLog_NeedPassForContracts"	"To receive contracts\nactivate a Gun Mettle Campaign Pass."
 "QuestLog_NoQuests"	"No contracts available right now.\nCheck back later."
+"QuestLog_NoContractsPossible_Halloween" "There is no campaign active.\nMerasmissions are unavailable."
+"QuestLog_NeedPassForContracts_Halloween"	"To receive Merasmissions\nyou need a WHATEVER THE GARGOYLE IS."
+"QuestLog_NoQuests_Halloween"	"No Merasmissions available right now.\nCheck back later, mortal."
 "Questlog_Progress"	"Progress"
 "QuestLog_Active"	"Active"
 "QuestLog_Available"	"Available"
 "QuestLog_UnidentifiedQuest" "Unidentified Contract"
+"QuestLog_Encoded" "<Encoded>"
+"QuestLog_Encoded_Merasmus" "<Magically Sealed>"
 "QuestLog_Identify"	"Click to decode"
+"QuestLog_Identify_Merasmus"	"Click to break seal"
 "QuestLog_TurnIn"	"Click to turn in"
 "QuestLog_Identifying"	"Decoding Contract..."
 "QuestLog_TurningIn"	"Submitting results"
+"QuestLog_TurningIn_Merasmus"	"Performing ritual"
 "QuestConfirmDiscard_Title" "Discard Contract?"
 "QuestConfirmDiscard_Body" "Are you sure you want to discard this contract?  It will be permanently deleted."
 "QuestDetails_Accept"	"Ok"
@@ -10882,14 +11009,21 @@
 "TF_Quest_Status_Encoded"				"New!"
 "TF_Quest_Status_Inactive"				"Inactive"
 "TF_Quest_Status_ReadyToTurnIn"			"Fulfilled"
+"TF_Quest_RequestLoanerItems"			"Request Loaner Items"
 
 "TF_QuestExpirationWarning"	"Self-Destruct:\n%s1\n"
+"TF_QuestExpirationWarning_Halloween"	"Vanishes:\n%s1\n"
 "TF_QuestObjective_Explanation" "************\n\nPerform any of the following tasks to earn Contract Points."
+"TF_QuestObjective_Explanation_Merasmus" "Completing a Merasmission will reward you with a classic Halloween item and bonus souls!\n\nPerform any of the following tasks to earn Merasmission Points."
 "QuestObjective_Required"	"%s1 CP"
 "QuestObjective_Optional"	"(Advanced) %s1 CP"
 "QuestPoints_Standard"	"%s1/%s2 CP"
 "QuestPoints_Bonus"	"Bonus: %s1/%s2 CP"
 
+"QuestObjective_Required_Merasmus"	"%s1 MP"
+"QuestObjective_Optional_Merasmus"	"(Advanced) %s1 MP"
+"QuestPoints_Standard_Merasmus"	"%s1/%s2 MP"
+"QuestPoints_Bonus_Merasmus"	"Bonus: %s1/%s2 MP"
 
 "TF_WhoDropped" "Dropped by %s1"
 "TF_OthersGun"	"%s1's\n%s2"
@@ -10942,9 +11076,9 @@
 "TF_HalloweenSpell_Footprints_5322826"			"Halloween Spell: Violent Violet Footprints"
 "TF_HalloweenSpell_Footprints_5322826_Desc"		"These colors don't run. Well, no -- actually, they do exactly that.\nThis spell can be applied to any hat-slot item."
 "TF_HalloweenSpell_Footprints_5322826_Attr"		"Violent Violet Footprints"
-"TF_HalloweenSpell_Footprints_13595446"			"Halloween Spell: Rotten Orange Footprints"	
+"TF_HalloweenSpell_Footprints_13595446"			"Halloween Spell: Rotten Orange Footprints"
 "TF_HalloweenSpell_Footprints_13595446_Desc"	"These colors don't run. Well, no -- actually, they do exactly that.\nThis spell can be applied to any hat-slot item."
-"TF_HalloweenSpell_Footprints_13595446_Attr"	"Rotten Orange Footprints"	
+"TF_HalloweenSpell_Footprints_13595446_Attr"	"Rotten Orange Footprints"
 "TF_HalloweenSpell_Footprints_8208497"			"Halloween Spell: Bruised Purple Footprints"
 "TF_HalloweenSpell_Footprints_8208497_Desc"		"These colors don't run. Well, no -- actually, they do exactly that.\nThis spell can be applied to any hat-slot item."
 "TF_HalloweenSpell_Footprints_8208497_Attr"		"Bruised Purple Footprints"
@@ -11187,8 +11321,8 @@
 "TF_ImportFile_SaveFailed"		"Save Failed"
 "TF_ImportFile_SaveFailedBadFile"	"Couldn't save %file%"
 "TF_ImportFile_SelectFile"		"Import workshop zip or session manifest"
-"TF_ImportFile_ImportCompleteTitle"	"Work complete!"	
-"TF_ImportFile_ImportComplete"	"Your item is saved as %file% and is ready to upload."	
+"TF_ImportFile_ImportCompleteTitle"	"Work complete!"
+"TF_ImportFile_ImportComplete"	"Your item is saved as %file% and is ready to upload."
 "TF_ItemPrefab_backpack"		"backpack"
 "TF_ItemPrefab_beard"			"beard"
 "TF_ItemPrefab_misc"			"misc"
@@ -11502,6 +11636,12 @@
 "TF_killer_solo_Desc"				"Sniper Taunt"
 "TF_taunt_most_wanted"			"Taunt: Most Wanted"
 "TF_taunt_most_wanted_Desc"			"Sniper Taunt"
+"TF_taunt_maggots_condolence"		"Taunt: Soldier's Requiem"
+"TF_taunt_maggots_condolence_Desc"	"Soldier Taunt"
+"TF_taunt_maggots_condolence_AdText"	"-Community Created Soldier Taunt\n-Show those maggots where they belong!"
+"TF_zoomin_broom"	"Taunt: Zoomin' Broom"
+"TF_zoomin_broom_Desc"	"All Class Taunt"
+"TF_zoomin_broom_AdText"	"-Community Created All Class Taunt\n-Show 'em who has the best broom skills!"
 
 
 
@@ -11548,7 +11688,7 @@
 
 // VR strings
 
-"TF_TF2VRH"					"TF2VRH" // ADD THE 
+"TF_TF2VRH"					"TF2VRH" // ADD THE
 "TF_TF2VRH_Desc"				"So long, squares! Take a hike, triangles! Introducing the Team Fortress 2 Very Rectangular Headset, which brings hundreds of decades of rectangle research and technology to the absolute forefront of your face."
 "TF_VR_Calibration"			"VR Calibration"
 "TF_VR_MoveLine"			"LOOK AT the green line and MOVE IT to the edge of
@@ -11719,7 +11859,7 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_tw2_demo_pants_Desc"					"Are these Scottish pantaloons historically accurate? You got us. Why don't you go ask your boyfriend History?"
 "TF_tw2_roman_wreath"						"Hardy Laurel"	// ADD THE
 "TF_tw2_roman_wreath_Desc"					"This bundle of spray painted sticks signified that you were a philosopher king in primitive cultures like Ancient Rome and present-day Canada. (Equips Romevision in Mann vs. Machine mode.)"
- 
+
 "TF_brotherhood_2"							"Brotherhood of Arms"	// ADD THE
 "TF_brotherhood_2_Desc"						"Straight outta 2Fort."
 "TF_riflemans_rallycap"						"Well-Rounded Rifleman"	// ADD THE
@@ -12165,6 +12305,8 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_sbox2014_trenchers_tunic"		"Trencher's Tunic" // ADD THE
 "TF_sbox2014_soldier_major"		"Ground Control"
 "TF_sbox2014_killers_kit"		"Killer's Kit" // ADD THE
+"TF_sbox2014_killers_kit_style1"	"Style 1"
+"TF_sbox2014_killers_kit_style2"	"Style 2"
 "TF_sbox2014_stylish_degroot"		"Stylish DeGroot"
 "TF_sbox2014_einstein"		"Ein"
 "TF_sbox2014_heavy_gunshow"		"Heavy Lifter" // ADD THE
@@ -12265,7 +12407,7 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_sf14_vampire_makeover"              "Vampire Makeover" // ADD THE
 "TF_sf14_vampiric_vesture"              "Vampiric Vesture" // ADD THE
 "TF_sf14_nugget_noggin"                 "Nugget Noggin" // ADD THE
-"TF_sf14_fowl_fists"                    "Fowl Fists" // ADD THE 
+"TF_sf14_fowl_fists"                    "Fowl Fists" // ADD THE
 "TF_sf14_talon_trotters"                "Talon Trotters" // ADD THE
 "TF_sf14_scout_hunter_head"             "Head Hunter" // ADD THE
 "TF_sf14_scout_hunter_arm"              "Claws And Infect"  // ADD THE
@@ -12409,6 +12551,25 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_invasion_wrangler"				"Giger Counter" // ADD THE
 "TF_invasion_space_hamster_hammy"	"Space Hamster Hammy"
 "TF_invasion_community_update_medal"	"Invasion Community Update Medal"
+"TF_hwn2015_roboot"		"Roboot"
+"TF_hwn2015_face_of_mercy"		"Face of Mercy" // ADD THE
+"TF_hwn2015_western_poncho"		"El Caballero"
+"TF_hwn2015_western_beard"		"El Patron"
+"TF_hwn2015_western_hat"		"Smokey Sombrero"
+"TF_hwn2015_neptunes_nightmare"		"Neptune's Nightmare"
+"TF_hwn2015_death_racer_jacket"		"Thrilling Tracksuit"
+"TF_hwn2015_death_racer_helmet"		"Death Racer's Helmet"
+"TF_hwn2015_grim_tweeter"		"Grim Tweeter"
+"TF_hwn2015_iron_lung"		"Iron Lung"
+"TF_hwn2015_duckyhat"		"Duck Billed Hatypus"
+"TF_hwn2015_dino_hoodie"		"Prehistoric Pullover"
+"TF_hwn2015_catastrophic_companions"		"Catastrophic Companions"
+"TF_hwn2015_mechanical_engineer"		"Dead'er Alive"
+"TF_hwn2015_hellmet"			"Hellmet" // ADD THE
+"TF_hwn2015_firebug_suit"		"Crusader's Getup"
+"TF_hwn2015_firebug_mask"		"Arthropod's Aspect"
+"TF_hwn2015_bargain_bicorne"	"B'aaarrgh-n-Bicorne"
+"TF_hwn2015_bargain_britches"	"B'aaarrgh-n-Britches"
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Breather Bag"	// ADD THE
@@ -12503,8 +12664,8 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_pocket_raiders_Style3"					"Isis"
 
 "TF_brimstone_hat"						"Brimstone"
-"TF_brimstone_Style_WithHat"				"Hat"				
-"TF_brimstone_Style_WithNoHat"				"No Hat"					
+"TF_brimstone_Style_WithHat"				"Hat"
+"TF_brimstone_Style_WithNoHat"				"No Hat"
 
 "TF_CrossingGuard"						"Crossing Guard" // ADD THE
 "TF_CrossingGuard_Desc"						""
@@ -12522,30 +12683,41 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_Powerup_Resist_Desc"			"Incoming damage reduced\nImmune to critical damage multiplier"
 "TF_Powerup_Vampire"				"Powerup: Vampire"
 "TF_Powerup_Vampire_Desc"			"Damage dealt returned as health\nIncoming damage reduced\nIncreased max health"
-"TF_Powerup_Warlock"				"Powerup: Warlock"
-"TF_Powerup_Warlock_Desc"			"Damage received partially reflected back to attacker\nIncreased max health"
+"TF_Powerup_Reflect"				"Powerup: Reflect"
+"TF_Powerup_Reflect_Desc"			"Damage received partially reflected back to attacker\nIncreased max health"
 "TF_Powerup_Precision"				"Powerup: Precision"
 "TF_Powerup_Precision_Desc"			"Reduced bullet spread\nDistance damage falloff immunity\nIncreased rocket and grenade velocity"
 "TF_Powerup_Agility"				"Powerup: Agility"
 "TF_Powerup_Agility_Desc"			"Increased movement speed\nGrapple speed increased\nJump height increased\nInstant weapon switch"
 "TF_Powerup_Knockout"				"Powerup: Knockout"
 "TF_Powerup_Knockout_Desc"			"Melee critical damage\nMelee damage shoves victim and causes them to drop their powerup\nIncreased Max Health\nPushback immunity"
+"TF_Powerup_King"					"Powerup: King"
+"TF_Powerup_King_Desc"				"Area team buff\nKing and nearby team mates gain health regeneration and increased attack and reload speed"
+"TF_Powerup_Plague"					"Powerup: Plague"
+"TF_Powerup_Plague_Desc"			"Touch enemy players to infect them and nearby enemies\nInfected enemy players bleed to death unless they pick up a health kit\nResistance to infected enemies"
+"TF_Powerup_Supernova"				"Powerup: Supernova"
+"TF_Powerup_Supernova_Desc"			"Area of effect stun attack\nDo damage to build charge\nDeploy charge to stun nearby enemies and force them to drop their powerups"
 
 "TF_Powerup_Pickup_Strength"		"You got the STRENGTH powerup!"
 "TF_Powerup_Pickup_Resist"			"You got the RESISTANCE powerup!"
 "TF_Powerup_Pickup_Regen"			"You got the REGENERATION powerup!"
 "TF_Powerup_Pickup_Haste"			"You got the HASTE powerup!"
 "TF_Powerup_Pickup_Vampire"			"You got the VAMPIRE powerup!"
-"TF_Powerup_Pickup_Warlock"			"You got the WARLOCK powerup!"
+"TF_Powerup_Pickup_Reflect"			"You got the REFLECT powerup!"
 "TF_Powerup_Pickup_Precision"		"You got the PRECISION powerup!"
 "TF_Powerup_Pickup_Agility"			"You got the AGILITY powerup!"
 "TF_Powerup_Pickup_Knockout"		"You got the KNOCKOUT powerup!"
+"TF_Powerup_Pickup_King"			"You got the KING powerup!"
+"TF_Powerup_Pickup_Plague"			"You got the PLAGUE powerup!"
+"TF_Powerup_Pickup_Supernova"		"You got the SUPERNOVA powerup!"
 
 "TF_Powerup_Pickup_Deny"			"You already have a powerup!"
 "TF_Powerup_Pickup_Deny_Crit"		"This cannot be used with your current powerup"
 "TF_Powerup_Pickup_Deny_Spy"		"Spies cannot use the KNOCKOUT powerup"
 "TF_Powerup_Knocked_Out"			"Your powerup was knocked out!"
 "TF_Powerupvolume_Available"		"Your team's revenge powerup is now available, go get it!"
+"TF_Powerup_Supernova_Deny"			"There are no valid enemy targets!"
+"TF_Powerup_Contract_Plague"		"You have contracted the Plague, find a health kit fast!"
 
 "ItemHistory_ActionWithTime"									"%s1 on %s2"
 "ItemHistory_Action_GenericAdd"									"Added"
@@ -12665,7 +12837,7 @@ Other Notes:
 Honorable hand to sword combat only!"
 
 "cp_fastlane_description"			"A community map created by \"skdr\"
-																	   
+
 Objective:
 To win each team must own all five Control Points.
 
@@ -12673,7 +12845,7 @@ Other Notes:
 Control Points cannot be captured while they are locked."
 
 "cp_process_final_description"			"A community map created by Ian 'Scorpio Uprising' Cuslidge
-																	   
+
 Objective:
 To win each team must own all five Control Points.
 
@@ -12686,7 +12858,7 @@ Objective:
 To win each team must own all three Control Points."
 
 "cp_snakewater_final1_description"			"A community map created by Toivo 'chojje' Sawen
-																	   
+
 Objective:
 To win each team must own all five Control Points.
 
@@ -12825,7 +12997,7 @@ MERASMUS! will reset ownership of the Control Point while he is lurking about."
 
 "plr_hightower_event_description"	"Objective:
 Help Blutarch or Redmond Mann's ghost win the Gravel Wars once and for all! Push an old dead man in a wheelchair to hell before the opposing team can do the same. Gather up and cast deadly spells. Stand near the cart to make it move.
- 
+
 Other Notes:
 Enemies can block the cart by getting close to it."
 
@@ -12856,13 +13028,13 @@ Other Notes:
 Players drop the intelligence when they die. Dropped intelligence returns to its Base after 60 seconds."
 
 "ctf_foundry_beta"			"Objective:
-To win a point, steal the enemy's intelligence briefcase and return it to your base. Dropped intelligence will instantly return to its Base when touched by its team. 
+To win a point, steal the enemy's intelligence briefcase and return it to your base. Dropped intelligence will instantly return to its Base when touched by its team.
 
 Other Notes:
 Powerups can be picked up to give you various enhancements. You can only carry one powerup at a time, and you drop your powerup when you die. You have access to a grapple hook that you can use to fly around the map."
 
 "ctf_gorge_beta"			"Objective:
-To win a point, steal the enemy's intelligence briefcase and return it to your base. Dropped intelligence will instantly return to its Base when touched by its team. 
+To win a point, steal the enemy's intelligence briefcase and return it to your base. Dropped intelligence will instantly return to its Base when touched by its team.
 
 Other Notes:
 Powerups can be picked up to give you various enhancements. You can only carry one powerup at a time, and you drop your powerup when you die. You have access to a grapple hook that you can use to fly around the map."
