@@ -1515,7 +1515,7 @@
 
 "TF_DeliverGiftDialog_Title"	"Deliver a Gift"
 "TF_DeliverGiftResultDialog_Title" "Gift Delivery"
-"TF_DeliverGiftDialog_Random_Text"	"Do you want to delivery this gift to a random online player?"
+"TF_DeliverGiftDialog_Random_Text"	"Do you want to deliver this gift to a random online player?"
 "TF_DeliverGiftDialog_Confirm"		"Yes, Deliver"
 "TF_DeliverGiftDialog_Cancel"		"No"
 "TF_DeliverGiftResultDialog_Success"  "The gift has been delivered!"
@@ -7371,11 +7371,11 @@
 
 "halloween2015_collection_case"			"Gargoyle Case"
 "halloween2015_collection_desc"			"This Case is locked and requires a\nGargoyle Key to open.\n\nContains a community made item \nfrom the Gargoyle Collection."
-"halloween2015_collection_adtext"		"-Gargoyle Case\n-Contains Community Cosmetics\n-Requires a Gargoyle Key to open\n-Contents may be Strange and hats may be Unusual.\n-Unusuals have unique effects to this case"
+"halloween2015_collection_adtext"		"-Gargoyle Case\n-Contains Community Cosmetics\n-Requires a Gargoyle Key to open\n-Contents may be Strange and hats may be Unusual.\n-Unusuals have effects unique to this case"
 
 "halloween2015_collection_key"			"Gargoyle Key"
 "halloween2015_collection_key_desc"		"Used to Open the Gargoyle Case"
-"halloween2015_collection_key_adtext"	"-Used to Open the Gargoyle Case\n-Contents may be Strange and hats may be Unusual.\n-Unusuals have unique effects to this case"
+"halloween2015_collection_key_adtext"	"-Used to Open the Gargoyle Case\n-Contents may be Strange and hats may be Unusual.\n-Unusuals have effects unique to this case"
 
 "halloween2015_collection_case_footer"	"Contents may be Strange or Unusual with a Halloween 2015 effect"
 
@@ -8243,8 +8243,8 @@
 "Attrib_Particle102"			"It's a puzzle to me "
 "Attrib_Particle103"			"Ether Trail"
 "Attrib_Particle104"			"Nether Trail"
-"Attrib_Particle105"			"Ancient Eldrich"
-"Attrib_Particle106"			"Eldrich Flame"
+"Attrib_Particle105"			"Ancient Eldritch"
+"Attrib_Particle106"			"Eldritch Flame"
 
 // Weapon Unusual
 "Attrib_Particle701"			"Hot"
@@ -11177,6 +11177,7 @@
 "TF_SteamWorkshop_Tag_Powerup"			"Mannpower"
 "TF_SteamWorkshop_Tag_Medieval"			"Medieval"
 "TF_SteamWorkshop_Tag_PassTime"			"PASS Time"
+"TF_SteamWorkshop_Tag_Batman"			"Batman"
 
 "TF_SteamWorkshop_PopulatingList"		"Retrieving list of published Steam Workshop items."
 "TF_SteamWorkshop_Error"		"Error"
