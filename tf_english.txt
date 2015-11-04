@@ -3816,6 +3816,9 @@
 "TF_CTF_No_Invuln"			"You cannot be INVULNERABLE while carrying the ENEMY INTELLIGENCE!"
 "TF_CTF_No_Tele"			"You cannot TELEPORT while carrying the ENEMY INTELLIGENCE!"
 
+"TF_Truce_Start"			"Truce! No enemy damage allowed during the truce!"
+"TF_Truce_End"				"The truce has ended! Game on!"
+
 "Team_Capture_Linear"		"Preceding\npoint\nnot owned!"
 "Team_Capture_Blocked"		"Capture\nblocked\nby enemy"
 "Team_Blocking_Capture"		"Blocking\nenemy\ncapture!"
@@ -5335,7 +5338,7 @@
 "TF_HALLOWEEN_BOSS_KILL_MELEE_NAME"             "Gored!"
 "TF_HALLOWEEN_BOSS_KILL_MELEE_DESC"             "Collect the Horseless Headless Horsemann's Haunted Metal."
 "TF_HALLOWEEN_COLLECT_GOODY_BAG_NAME"           "Masked Mann"
-"TF_HALLOWEEN_COLLECT_GOODY_BAG_DESC"           "Collect the Haunted Halloween Gift in Mann Manor."
+"TF_HALLOWEEN_COLLECT_GOODY_BAG_DESC"           "Collect a Soul Gargoyle in Mann Manor."
 "TF_HALLOWEEN_CRAFT_SAXTON_MASK_NAME"           "Sackston Hale"
 "TF_HALLOWEEN_CRAFT_SAXTON_MASK_DESC"           "Craft the Saxton Hale Mask."
 "TF_HALLOWEEN_BOSS_DEATHCAM_NAME"			"The Horseless Headless Horsemann"
@@ -11010,11 +11013,14 @@
 "TF_Quest_Status_Inactive"				"Inactive"
 "TF_Quest_Status_ReadyToTurnIn"			"Fulfilled"
 "TF_Quest_RequestLoanerItems"			"Request Loaner Items"
+"TF_Quest_PlayThisMap"					"Play This Contract"
+"TF_Quest_PlayThisMap_Merasmission"					"Play This Merasmission"
 
 "TF_QuestExpirationWarning"	"Self-Destruct:\n%s1\n"
 "TF_QuestExpirationWarning_Halloween"	"Vanishes:\n%s1\n"
 "TF_QuestObjective_Explanation" "************\n\nPerform any of the following tasks to earn Contract Points."
 "TF_QuestObjective_Explanation_Merasmus" "Completing a Merasmission will reward you with a classic Halloween item and bonus souls!\n\nPerform any of the following tasks to earn Merasmission Points."
+
 "QuestObjective_Required"	"%s1 CP"
 "QuestObjective_Optional"	"(Advanced) %s1 CP"
 "QuestPoints_Standard"	"%s1/%s2 CP"
